@@ -1,0 +1,32 @@
+import { AsyncIterator } from "asynciterator";
+import Context from "../../Context";
+import IConnectionsProvider from "../../fetcher/connections/IConnectionsProvider";
+import IPath from "../../interfaces/IPath";
+import ILocationResolver from "../../query-runner/ILocationResolver";
+import IResolvedQuery from "../../query-runner/IResolvedQuery";
+import IReachableStopsFinder from "../stops/IReachableStopsFinder";
+import IPublicTransportPlanner from "./IPublicTransportPlanner";
+export default class CSAEarliestArrival2 implements IPublicTransportPlanner {
+    private readonly connectionsProvider;
+    private readonly locationResolver;
+    private readonly transferReachableStopsFinder;
+    private readonly initialReachableStopsFinder;
+    private readonly finalReachableStopsFinder;
+    private readonly context;
+    private finalReachableStops;
+    private profilesByStop;
+    private enterConnectionByTrip;
+    private connectionsQueue;
+    private journeyExtractor;
+    constructor(connectionsProvider: IConnectionsProvider, locationResolver: ILocationResolver, transferReachableStopsFinder: IReachableStopsFinder, initialReachableStopsFinder: IReachableStopsFinder, finalReachableStopsFinder: IReachableStopsFinder, context?: Context);
+    plan(query: IResolvedQuery): Promise<AsyncIterator<IPath>>;
+    private setBounds;
+    private calculateJourneys;
+    private extractJourneys;
+    private processConnections;
+    private getProfile;
+    private updateProfile;
+    private scheduleExtraConnections;
+    private initInitialReachableStops;
+    private initFinalReachableStops;
+}
