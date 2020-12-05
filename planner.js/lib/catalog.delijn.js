@@ -1,21 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const Catalog_1 = __importDefault(require("./Catalog"));
-const TravelMode_1 = __importDefault(require("./enums/TravelMode"));
-/* tslint:disable:max-line-length */
-const catalogDeLijn = new Catalog_1.default();
-catalogDeLijn.addStopsSource("https://openplanner.ilabt.imec.be/delijn/Antwerpen/stops");
-catalogDeLijn.addStopsSource("https://openplanner.ilabt.imec.be/delijn/Limburg/stops");
-catalogDeLijn.addStopsSource("https://openplanner.ilabt.imec.be/delijn/Oost-Vlaanderen/stops");
-catalogDeLijn.addStopsSource("https://openplanner.ilabt.imec.be/delijn/Vlaams-Brabant/stops");
-catalogDeLijn.addStopsSource("https://openplanner.ilabt.imec.be/delijn/West-Vlaanderen/stops");
-catalogDeLijn.addConnectionsSource("https://openplanner.ilabt.imec.be/delijn/Antwerpen/connections", TravelMode_1.default.Bus);
-catalogDeLijn.addConnectionsSource("https://openplanner.ilabt.imec.be/delijn/Limburg/connections", TravelMode_1.default.Bus);
-catalogDeLijn.addConnectionsSource("https://openplanner.ilabt.imec.be/delijn/Oost-Vlaanderen/connections", TravelMode_1.default.Bus);
-catalogDeLijn.addConnectionsSource("https://openplanner.ilabt.imec.be/delijn/Vlaams-Brabant/connections", TravelMode_1.default.Bus);
-catalogDeLijn.addConnectionsSource("https://openplanner.ilabt.imec.be/delijn/West-Vlaanderen/connections", TravelMode_1.default.Bus);
-exports.default = catalogDeLijn;
-//# sourceMappingURL=catalog.delijn.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:44f006ff00c5056492c24ec3b880bb9960ca279f1a0f82d75efddd6102199030
+size 1621

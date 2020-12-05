@@ -1,32 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.getNeighborTiles = exports.pointsOfTriangle = exports.edgesOfTriangle = void 0;
-function edgesOfTriangle(t) {
-    // from https://mapbox.github.io/delaunator
-    return [3 * t, 3 * t + 1, 3 * t + 2];
-}
-exports.edgesOfTriangle = edgesOfTriangle;
-function pointsOfTriangle(delaunay, t) {
-    // from https://mapbox.github.io/delaunator
-    return edgesOfTriangle(t)
-        .map((e) => delaunay.triangles[e]);
-}
-exports.pointsOfTriangle = pointsOfTriangle;
-function getNeighborTiles(coordinate) {
-    const result = [];
-    for (const xDelta of [-1, 0, 1]) {
-        for (const yDelta of [-1, 0, 1]) {
-            if (xDelta || yDelta) {
-                const neighbor = {
-                    zoom: coordinate.zoom,
-                    y: coordinate.y + yDelta,
-                    x: coordinate.x + xDelta,
-                };
-                result.push(neighbor);
-            }
-        }
-    }
-    return result;
-}
-exports.getNeighborTiles = getNeighborTiles;
-//# sourceMappingURL=util.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:3253035e0e237de45dfb5b4db8b21c8cf57fabc2dd55929a501c6b40503f5b32
+size 1077

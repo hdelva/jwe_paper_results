@@ -1,9 +1,3 @@
-import { MultiPolygon, Polygon } from "@turf/turf";
-import ILocation from "../../interfaces/ILocation";
-export default class GeometryValue {
-    static create(id?: string): GeometryValue;
-    id: string;
-    area: Polygon | MultiPolygon;
-    constructor(id?: string);
-    contains(location: ILocation): boolean;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:458b4ee8123d95e60594d1a6670c9697c05bbbd43884e9660d74128dfcbd7dc6
+size 314

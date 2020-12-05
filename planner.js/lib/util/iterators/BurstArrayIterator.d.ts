@@ -1,16 +1,3 @@
-import { BufferedIterator } from "asynciterator";
-import { DurationMs } from "../../interfaces/units";
-/**
- * An AsyncIterator that emits the items of a given array in synchronous bursts of 3 items.
- * The bursts happen asynchronously.
- * Optionally accepts an interval (in ms) between each emitted item.
- *
- * This class is most useful in tests
- */
-export default class BurstArrayIterator<T> extends BufferedIterator<T> {
-    private currentIndex;
-    private readonly array;
-    private readonly interval;
-    constructor(array: T[], interval?: DurationMs);
-    _read(count: number, done: () => void): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1a173fe3fa7f43e6229b2d4fb4c2db67d25861ee7c8a29a28991072337a9cc9
+size 612

@@ -1,12 +1,3 @@
-import { injectable } from "inversify";
-import ILocationResolver from "../../query-runner/ILocationResolver";
-import PathfindingGraph from "../graph";
-import { IShortestPathAlgorithm, IShortestPathInstance } from "../pathfinder";
-import { MixedDijkstraInstance } from "./MixedDijkstraInstance";
-
-@injectable()
-export default class MixedDijkstra implements IShortestPathAlgorithm {
-    public createInstance(graph: PathfindingGraph, locationResolver: ILocationResolver): IShortestPathInstance {
-        return new MixedDijkstraInstance(graph, locationResolver);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6ad7143838975ae1e72a170919c05750bec461071de244e7bd24403d1f69d71
+size 569

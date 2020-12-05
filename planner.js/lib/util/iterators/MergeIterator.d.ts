@@ -1,13 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-declare type Selector<T> = (values: Array<T | undefined | null>) => number;
-export default class MergeIterator<T> extends AsyncIterator<T> {
-    values: T[];
-    private readonly sourceIterators;
-    private readonly selector;
-    constructor(sourceIterators: Array<AsyncIterator<T>>, selector: Selector<T>);
-    appendIterator(iterator: AsyncIterator<T>): void;
-    read(): T;
-    close(): void;
-    private addListeners;
-}
-export {};
+version https://git-lfs.github.com/spec/v1
+oid sha256:00ce118b57ced1cabd81dc6e862498d602b0e1b3f883a853d14b34b2002a5a55
+size 483

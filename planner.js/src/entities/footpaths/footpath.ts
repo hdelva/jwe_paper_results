@@ -1,21 +1,3 @@
-import IStop from "../../fetcher/stops/IStop";
-import { DistanceM } from "../../interfaces/units";
-
-export class Footpath {
-    public static create(id: string) {
-        return new Footpath(id);
-    }
-
-    public from: string;
-    public to: string;
-    public distance: DistanceM;
-    public id: string;
-
-    constructor(id: string) {
-        this.id = id;
-    }
-}
-
-export interface IFootpathIndex {
-    [id: string]: Footpath;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a413bf988fab879c022bf33e618b38252ff0ca5ca83b4670d9d4f098679cb8eb
+size 432

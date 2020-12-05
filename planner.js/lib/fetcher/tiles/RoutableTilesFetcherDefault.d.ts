@@ -1,15 +1,3 @@
-import LDFetch from "ldfetch";
-import { RoutableTile } from "../../entities/tiles/tile";
-import IRoutableTilesFetcher from "./IRoutableTilesFetcher";
-export default class RoutableTileFetcherDefault implements IRoutableTilesFetcher {
-    private ldFetch;
-    private ldLoader;
-    constructor(ldFetch: LDFetch);
-    fetchByCoords(zoom: number, latitude: number, longitude: number): Promise<RoutableTile>;
-    fetchByTileCoords(zoom: number, latitudeTile: number, longitudeTile: number): Promise<RoutableTile>;
-    get(url: string): Promise<RoutableTile>;
-    private getNodesView;
-    private getWaysView;
-    private long2tile;
-    private lat2tile;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a6e200a630be9736ce3cffc3e411922bdd19a8224f2196109e26f57e9857b12
+size 652

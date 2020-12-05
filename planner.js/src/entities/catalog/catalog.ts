@@ -1,15 +1,3 @@
-import { Dataset } from "./dataset";
-
-export class Catalog {
-    public static create(id: string) {
-        return new Catalog(id);
-    }
-
-    public id: string;
-    public datasets: Dataset[];
-    public publisher: any;
-
-    constructor(id: string) {
-        this.id = id;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:281ca3dcf3922207703f96acee6fd6477ac116106a9a45c136f29fc5a1526fb2
+size 282

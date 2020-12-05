@@ -1,16 +1,3 @@
-import IStop from "../fetcher/stops/IStop";
-import IStopsProvider from "../fetcher/stops/IStopsProvider";
-import ILocation from "../interfaces/ILocation";
-import ILocationResolver from "./ILocationResolver";
-/**
- * Location resolver that allows stop names as input
- * Falls back to LocationResolverDefault
- */
-export default class LocationResolverConvenience implements ILocationResolver {
-    private readonly stopsProvider;
-    private readonly defaultLocationResolver;
-    private allStops;
-    constructor(stopsProvider: IStopsProvider);
-    resolve(input: ILocation | IStop | string): Promise<ILocation>;
-    private isId;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fc9d36d8460c3563fa34dd36971dedcc090a991e67444765f39437e7347469d
+size 630

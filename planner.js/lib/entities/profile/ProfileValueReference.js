@@ -1,18 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class ProfileValueReference {
-    constructor(id) {
-        this.id = id;
-    }
-    static create(id) {
-        return new ProfileValueReference(id);
-    }
-    getID() {
-        return this.id;
-    }
-    resolve(element) {
-        return element[this.from];
-    }
-}
-exports.default = ProfileValueReference;
-//# sourceMappingURL=ProfileValueReference.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a7db790a350027d08d39dc1cced930d5cf6812f3c196cc7b307d36a45ba9586
+size 433

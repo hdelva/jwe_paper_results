@@ -1,1 +1,3 @@
-{"version":3,"file":"Rule.js","sourceRoot":"","sources":["../../src/profile/Rule.ts"],"names":[],"mappings":";;AAEA,MAAqB,WAAW;IACrB,MAAM,CAAC,MAAM,CAAC,EAAU;QAC3B,OAAO,IAAI,WAAW,CAAC,EAAE,CAAC,CAAC;IAC/B,CAAC;IAOD,YAAY,GAAW;QACnB,IAAI,CAAC,EAAE,GAAG,GAAG,CAAC;IAClB,CAAC;IAEM,KAAK;QACR,OAAO,IAAI,CAAC,EAAE,CAAC;IACnB,CAAC;CACJ;AAjBD,8BAiBC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd25bdd5e01b8c9c080e39ea1c789fccdc3f48d801edbbceebca874e5fe28540
+size 342

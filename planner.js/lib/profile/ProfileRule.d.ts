@@ -1,11 +1,3 @@
-import { IEntity } from "../loader/common";
-import ProfileCondition from "./ProfileCondition";
-export default class ProfileRule implements IEntity {
-    static create(id: string): ProfileRule;
-    id: string;
-    conclusion: object;
-    condition: ProfileCondition;
-    order: number;
-    constructor(id: string);
-    getID(): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a37310997f826155b5a3e63a3741ffdaff153cac29bf8c5aca8759e61f12c9cf
+size 337

@@ -1,9 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var Crossing;
-(function (Crossing) {
-    Crossing["Uncontrolled"] = "https://w3id.org/openstreetmap/terms#Uncontrolled";
-    Crossing["Unmarked"] = "https://w3id.org/openstreetmap/terms#Unmarked";
-})(Crossing || (Crossing = {}));
-exports.default = Crossing;
-//# sourceMappingURL=Crossing.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:509120d39bbc4ea4550bbd9925e48321df7b209642c0359b952b180bb8251923
+size 371

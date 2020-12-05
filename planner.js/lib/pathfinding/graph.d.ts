@@ -1,26 +1,3 @@
-interface IEdge {
-    node: number;
-    distance: number;
-    duration: number;
-    cost: number;
-    through: string;
-}
-export default class PathfindingGraph {
-    private id;
-    private nodes;
-    private labels;
-    private adjacencyList;
-    private reverseAdjacencyList;
-    private breakPoints;
-    constructor(id: string);
-    addEdge(from: string, to: string, through: string, distance: number, duration: number, cost: number): void;
-    getNodeMap(): Map<string, number>;
-    getLabel(position: number): string;
-    getAdjacencyList(): IEdge[][];
-    getReverseAdjacencyList(): IEdge[][];
-    getNodeIndex(label: string): number;
-    setBreakPoint(on: string, callback: (on: string) => Promise<void>): void;
-    getBreakPoint(position: number): (on: string) => Promise<void>;
-    removeBreakPoint(on: string): void;
-}
-export {};
+version https://git-lfs.github.com/spec/v1
+oid sha256:e90c441fdf1d379289aaa2a779908aaab33a36a0ae3059f481060328dc293d31
+size 839

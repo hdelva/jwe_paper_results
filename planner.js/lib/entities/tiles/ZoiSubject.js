@@ -1,17 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class ZoiSubject {
-    constructor(id, property, values) {
-        this.id = id;
-        this.property = property;
-        this.values = values;
-    }
-    getProperty() {
-        return this.property;
-    }
-    getValues() {
-        return this.values;
-    }
-}
-exports.default = ZoiSubject;
-//# sourceMappingURL=ZoiSubject.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b8ef998019266bd276bb7df286e9d09faad878c76b5ccee7105072cc2d39622
+size 406

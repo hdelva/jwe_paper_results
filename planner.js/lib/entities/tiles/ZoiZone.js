@@ -1,25 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.ZoiZone = void 0;
-class ZoiZone {
-    constructor(id, boundary, subject, degree = 1) {
-        this.id = id;
-        this.boundary = boundary;
-        this.subject = subject;
-        this.degree = degree;
-    }
-    getBoundary() {
-        return this.boundary;
-    }
-    getSubject() {
-        return this.subject;
-    }
-    getDegree() {
-        return this.degree;
-    }
-    contains(location) {
-        return this.boundary.contains(location);
-    }
-}
-exports.ZoiZone = ZoiZone;
-//# sourceMappingURL=ZoiZone.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:2eb61c4f23f8f138a3a01f886fe95541b437faba9b7f3dbe163c25ac4c07e718
+size 602

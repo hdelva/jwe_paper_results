@@ -1,14 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import IConnection from "../../entities/connections/connections";
-import IConnectionsIteratorOptions from "./IConnectionsIteratorOptions";
-import IConnectionsProvider from "./IConnectionsProvider";
-export default class BackwardConnectionIterator extends AsyncIterator<IConnection> {
-    private connectionsProvider;
-    private options;
-    private waiting;
-    private currentPage;
-    private currentIndex;
-    constructor(provider: IConnectionsProvider, options: IConnectionsIteratorOptions, beginUrl: string);
-    fetchPage(url: any): Promise<void>;
-    read(): IConnection;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f8218861962572499f033ab12312e5d38dd8fab31e58689f40ce700347ede02
+size 628

@@ -1,24 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.HydraTemplate = void 0;
-const uriTemplates = require("uri-templates");
-class HydraTemplate {
-    constructor(id) {
-        this.id = id;
-    }
-    static create(id) {
-        return new HydraTemplate(id);
-    }
-    fill(values) {
-        const template = uriTemplates(this.template);
-        const params = {};
-        for (const mapping of this.mappings) {
-            if (values[mapping.property]) {
-                params[mapping.variable] = values[mapping.property];
-            }
-        }
-        return template.fill(params);
-    }
-}
-exports.HydraTemplate = HydraTemplate;
-//# sourceMappingURL=search.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf43efe2f9fad881aae269b60d1bef4ac491deae1b86351acc5b2f2967f27a5c
+size 699

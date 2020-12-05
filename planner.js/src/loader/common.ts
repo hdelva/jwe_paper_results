@@ -1,11 +1,3 @@
-export interface ISemiEntity {
-    id?: string;
-}
-
-export interface IEntity extends ISemiEntity {
-    id: string;
-}
-
-export interface IEntityMap<T extends ISemiEntity> {
-    [id: string]: T;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c38ece1c6ecb55f21e96e6a2ab47c80edde7842bd568a73c7ade3892aa768aca
+size 193

@@ -1,16 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var RelationTypes;
-(function (RelationTypes) {
-    RelationTypes["GEOSPATIALLYC_CONTAINS"] = "https://w3id.org/tree#GeospatiallyContainsRelation";
-})(RelationTypes || (RelationTypes = {}));
-class HypermediaTreeRelation {
-    constructor(id) {
-        this.id = id;
-    }
-    static create(id) {
-        return new HypermediaTreeRelation(id);
-    }
-}
-exports.default = HypermediaTreeRelation;
-//# sourceMappingURL=relation.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:3fe94f8556803bf9b64efcdde07c3f34f5ac983c289f1db9a2c51e27f3599a7f
+size 505

@@ -1,22 +1,3 @@
-import PathfindingGraph from "../graph";
-import { IShortestPathInstance } from "../pathfinder";
-export declare class BidirDijkstraInstance implements IShortestPathInstance {
-    private graph;
-    private useWeightedCost;
-    private forwardCosts;
-    private backwardCosts;
-    private forwardParents;
-    private backwardParents;
-    constructor(graph: PathfindingGraph);
-    setUseWeightedCost(useWeightedCost: boolean): void;
-    setBreakPoint(on: string, callback: (on: string) => Promise<void>): void;
-    removeBreakPoint(on: string): void;
-    queryPath(from: string, to: string, maxDistance?: number): Promise<any[]>;
-    private constructPath;
-    private forwardStep;
-    private backwardStep;
-    private setForwardCost;
-    private getForwardCost;
-    private setBackwardCost;
-    private getBackwardCost;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:af18359492b3c2eb6bf1e8ca784597d64ef6d8dd0b8784df93bf3d6da62ab637
+size 821

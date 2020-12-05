@@ -1,1 +1,3 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/loader/results/index.ts"],"names":[],"mappings":";;;AAGA,MAAa,oBAAoB;IAG7B;QACI,IAAI,CAAC,QAAQ,GAAG,EAAE,CAAC;IACvB,CAAC;IAEM,SAAS,CAAC,MAAS;QACtB,IAAI,CAAC,QAAQ,CAAC,MAAM,CAAC,EAAE,CAAC,GAAG,MAAM,CAAC;IACtC,CAAC;IAEM,WAAW;QACd,OAAO,IAAI,CAAC,QAAQ,CAAC;IACzB,CAAC;CACJ;AAdD,oDAcC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0af748d15d6b15f607ca23039809e9171ad2051ab6aad473cea3d9f93f279601
+size 353

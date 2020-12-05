@@ -1,19 +1,3 @@
-import { IEntity } from "../../loader/common";
-
-export default class ProfileCondition implements IEntity {
-    public static create(id: string): ProfileCondition {
-        return new ProfileCondition(id);
-    }
-
-    public id: string;
-    public predicate: string;
-    public object: string;
-
-    constructor(id: string) {
-        this.id = id;
-    }
-
-    public getID(): string {
-        return this.id;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2863e2c4bf8c402fe7609696299a20dd085e2f85fe3cda8d5b62feaed33e4bf
+size 413

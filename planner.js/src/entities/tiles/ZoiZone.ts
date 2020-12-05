@@ -1,33 +1,3 @@
-import ILocation from "../../interfaces/ILocation";
-import GeometryValue from "../tree/geometry";
-import ZoiSubject from "./ZoiSubject";
-
-export class ZoiZone {
-    public id: string;
-    private boundary: GeometryValue;
-    private subject: ZoiSubject;
-    private degree?: number;
-
-    constructor(id: string, boundary: GeometryValue, subject: ZoiSubject, degree = 1) {
-        this.id = id;
-        this.boundary = boundary;
-        this.subject = subject;
-        this.degree = degree;
-    }
-
-    public getBoundary() {
-        return this.boundary;
-    }
-
-    public getSubject() {
-        return this.subject;
-    }
-
-    public getDegree() {
-        return this.degree;
-    }
-
-    public contains(location: ILocation): boolean {
-        return this.boundary.contains(location);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:33f858906df7374f1426c1df9f296cd73a07393f2c4e56a1a5f051fbc26c5c37
+size 792

@@ -1,19 +1,3 @@
-import config from "../../configs/geospatial_fragment";
-import TravelMode from "../../enums/TravelMode";
-import IHypermediaTreeProvider from "../../fetcher/tree/IHeadermediaTreeProvider";
-import TYPES from "../../types";
-import Planner from "./Planner";
-
-export default class GeospatialFragmentedPlanner extends Planner {
-    private treeProvider: IHypermediaTreeProvider;
-
-    constructor() {
-        super(config);
-        this.treeProvider = config.get<IHypermediaTreeProvider>(TYPES.HypermediaTreeProvider);
-    }
-
-    public addConnectionSource(accessUrl: string, travelMode = TravelMode.Train) {
-        super.addConnectionSource(accessUrl, travelMode);
-        this.treeProvider.addTreeSource(accessUrl);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:53a9dc63faf9a12a4bfc55b80e9c19dc326920fac442dc38d5d81c3bc712ccde
+size 720

@@ -1,14 +1,3 @@
-import { IEntity } from "../loader/common";
-import ProfileValueReference from "./ProfileValueReference";
-export default class ProfileConclusion implements IEntity {
-    static create(id: string): ProfileConclusion;
-    id: string;
-    hasccess?: boolean;
-    isOneway?: boolean;
-    isReversed?: boolean;
-    speed?: number | ProfileValueReference;
-    isPriority?: boolean;
-    priority?: number;
-    constructor(id: string);
-    getID(): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd8e12bef9f16cabcddebef0f5d1db43b18ba5ad74d576bac9d5455c7b550c1e
+size 450

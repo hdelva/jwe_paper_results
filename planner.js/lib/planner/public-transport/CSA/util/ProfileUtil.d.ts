@@ -1,11 +1,3 @@
-import IConnection from "../../../../entities/connections/connections";
-import { DurationMs } from "../../../../interfaces/units";
-import IArrivalTimeByTransfers from "../data-structure/IArrivalTimeByTransfers";
-import IProfilesByStop from "../data-structure/stops/IProfilesByStop";
-/**
- * Utility functions that can be used on the CSA profiles [[IProfilesByStop]].
- */
-export default class ProfileUtil {
-    static filterInfinity(profilesByStop: IProfilesByStop): IProfilesByStop;
-    static getTransferTimes(profilesByStop: IProfilesByStop, connection: IConnection, maxLegs: number, minimumTransferDuration: DurationMs, maximumTransferDuration: DurationMs): IArrivalTimeByTransfers;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5be4b939de288d4baa7e8f49457c35fb739b98889b968b56a522f4f3403e600
+size 687

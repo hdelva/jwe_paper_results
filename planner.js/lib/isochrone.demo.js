@@ -1,9 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const _1 = require(".");
-const x = new _1.IsochroneGenerator({ latitude: 51.0262973, longitude: 3.7110885 });
-x.enableDebugLogs();
-x.getIsochrone(2500, true).then((y) => {
-    console.log(y);
-});
-//# sourceMappingURL=isochrone.demo.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:a90ec4282478998cd659f36f3981590b1bb684ba1125ee776d13798d1d6d990d
+size 315

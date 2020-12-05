@@ -1,21 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import { IConnectionsSourceConfig } from "../../Catalog";
-import IConnection from "../../entities/connections/connections";
-import { LinkedConnectionsPage } from "../../entities/connections/page";
-import GeometryValue from "../../entities/tree/geometry";
-import IConnectionsIteratorOptions from "./IConnectionsIteratorOptions";
-
-export default interface IConnectionsProvider {
-  addConnectionSource(source: IConnectionsSourceConfig);
-  getSources(): IConnectionsSourceConfig[];
-
-  prefetchConnections(lowerBound: Date, upperBound: Date): void;
-  appendIterator(
-    options: IConnectionsIteratorOptions,
-    existingIterator: AsyncIterator<IConnection>,
-  ): Promise<AsyncIterator<IConnection>>;
-  createIterator(options: IConnectionsIteratorOptions): Promise<AsyncIterator<IConnection>>;
-
-  getByUrl(url: string): Promise<LinkedConnectionsPage>;
-  getByTime(date: Date, region?: GeometryValue): Promise<LinkedConnectionsPage>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e616c499c623206465ebc9ed4ef9d60a4b4fd2e0ab3b840be5a09b25ca98a91e
+size 977

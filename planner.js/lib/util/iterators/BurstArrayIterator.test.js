@@ -1,34 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-require("jest");
-const BurstArrayIterator_1 = __importDefault(require("./BurstArrayIterator"));
-describe("[BurstArrayIterator]", () => {
-    it("basic", (done) => {
-        const expected = [1, 1, 2, 3, 4, 5, 5, 5, 5, 6, 1, 5, 3, 5, 8];
-        const filterUniqueIterator = new BurstArrayIterator_1.default(expected, 20);
-        let current = 0;
-        filterUniqueIterator.each((str) => {
-            expect(expected[current++]).toBe(str);
-        });
-        filterUniqueIterator.on("end", () => {
-            expect(current).toBe(expected.length);
-            done();
-        });
-    });
-    it("smaller than burst", (done) => {
-        const expected = [1, 1];
-        const filterUniqueIterator = new BurstArrayIterator_1.default(expected, 20);
-        let current = 0;
-        filterUniqueIterator.each((str) => {
-            expect(expected[current++]).toBe(str);
-        });
-        filterUniqueIterator.on("end", () => {
-            expect(current).toBe(expected.length);
-            done();
-        });
-    });
-});
-//# sourceMappingURL=BurstArrayIterator.test.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:19a797f6154e5d927cfc63af24b29db403faa6ef19a14604c5fe4f0273325153
+size 1294

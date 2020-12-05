@@ -1,15 +1,3 @@
-import IConnection from "../../../../../entities/connections/connections";
-import IArrivalTimeByTransfers from "../IArrivalTimeByTransfers";
-import IEarliestArrival from "./IEarliestArrival";
-import IEarliestArrivalByTransfers from "./IEarliestArrivalByTransfers";
-/**
- * A factory that create's an [[IEarliestArrival]] for each amount of maximum transfers that can be made.
- *
- * @implements [[IEarliestArrivalByTransfers]]
- */
-export default class EarliestArrivalByTransfers extends Array<IEarliestArrival> implements IEarliestArrivalByTransfers {
-    static create(amountOfTransfers: number): EarliestArrivalByTransfers;
-    static createByConnection(currentArrivalTimeByTransfers: EarliestArrivalByTransfers, connection: IConnection, arrivalTimeByTransfers: IArrivalTimeByTransfers): EarliestArrivalByTransfers;
-    [amountOfTransfers: number]: IEarliestArrival;
-    constructor(maximumTransfers: number);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9870bd1cb5605fa9bfc90e030068c144bc8f638020f20f39c632eb211e69e9d
+size 912

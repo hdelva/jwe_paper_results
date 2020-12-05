@@ -1,25 +1,3 @@
-import TravelMode from "../enums/TravelMode";
-import ILocation from "../interfaces/ILocation";
-import { DurationMs, SpeedKmH } from "../interfaces/units";
-/**
- * A resolved query is the result of transforming an input [[IQuery]] by adding defaults for any missing parameters and
- * by resolving the endpoints (`from` and `to`). Classes using this resolved query don't have to worry about any missing
- * or unrealistic parameters
- */
-export default interface IResolvedQuery {
-    from?: ILocation[];
-    to?: ILocation[];
-    profileID: string;
-    minimumDepartureTime?: Date;
-    maximumArrivalTime?: Date;
-    roadOnly?: boolean;
-    roadNetworkOnly?: boolean;
-    minimumWalkingSpeed?: SpeedKmH;
-    maximumWalkingSpeed?: SpeedKmH;
-    maximumWalkingDuration?: DurationMs;
-    minimumTransferDuration?: DurationMs;
-    maximumTransferDuration?: DurationMs;
-    maximumTransfers?: number;
-    maximumTravelDuration?: DurationMs;
-    excludedTravelModes?: Set<TravelMode>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e18456074caf1d09538403165856abfc6940157254f28e71cc2ca73b59df8589
+size 976

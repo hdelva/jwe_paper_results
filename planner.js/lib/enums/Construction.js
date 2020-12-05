@@ -1,8 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var Construction;
-(function (Construction) {
-    Construction["Yes"] = "https://w3id.org/openstreetmap/terms#UnderConstruction";
-})(Construction || (Construction = {}));
-exports.default = Construction;
-//# sourceMappingURL=Construction.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:c125cdfa12a290b4e9463c4fc122714f869cc6a6a591cd606ec50248b8350d9c
+size 319

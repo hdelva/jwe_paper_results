@@ -1,17 +1,3 @@
-import { RoutableTile } from "../../entities/tiles/RoutableTile";
-import { RoutableTileSet } from "../../entities/tiles/RoutableTileSet";
-import TileCoordinate from "../../entities/tiles/TileCoordinate";
-import ILocation from "../../interfaces/ILocation";
-
-export default interface IRoutableTileProvider {
-    wait(): Promise<void>;
-
-    getIdForLocation(zoom: number, location: ILocation): string;
-    getIdForTileCoords(coordinate: TileCoordinate): string;
-
-    getByLocation(zoom: number, location: ILocation): Promise<RoutableTile>;
-    getByTileCoords(coordinate: TileCoordinate): Promise<RoutableTile>;
-
-    getmultipleByLocation(zoom: number, locations: ILocation[]): Promise<RoutableTileSet>;
-    getMultipleByTileCoords(coordinates: TileCoordinate[]): Promise<RoutableTileSet>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3bf4584a966c06e7de7e4d18777b6b3fbea76b8100c2f7cdab23d507e3efd49
+size 789

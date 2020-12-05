@@ -1,21 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const road_planner_1 = __importDefault(require("../../configs/road_planner"));
-const Planner_1 = __importDefault(require("./Planner"));
-class FlexibleRoadPlanner extends Planner_1.default {
-    constructor() {
-        super(road_planner_1.default);
-    }
-    query(query) {
-        query.roadNetworkOnly = true;
-        return super.query(query);
-    }
-    async completePath(path) {
-        return path;
-    }
-}
-exports.default = FlexibleRoadPlanner;
-//# sourceMappingURL=FlexibleRoadPlanner.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e0a378ea69fe0e7e16536a67614990445d3c118cda5bdbb891cccee359b6f49
+size 715

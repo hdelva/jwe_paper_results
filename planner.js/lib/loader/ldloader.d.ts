@@ -1,11 +1,3 @@
-import { Triple } from "rdf-js";
-import { ThingView } from "./views/single";
-export declare class LDLoader {
-    private collectionFields;
-    defineCollection(field: string): void;
-    process(triples: Triple[], views: Array<ThingView<any>>): any[];
-    disambiguateBlankNodes(triples: any, scope: string): void;
-    private _parseValue;
-    private parseWktLiteral;
-    private _extractEntities;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:41985feb10306616ed42b50c1d9cddcb54a49cc1e1711b0b4143c53b596dc128
+size 400

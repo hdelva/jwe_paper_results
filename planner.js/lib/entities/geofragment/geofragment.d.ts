@@ -1,9 +1,3 @@
-import { MultiPolygon, Polygon } from "@turf/turf";
-import ILocation from "../../interfaces/ILocation";
-export default class GeoFragment {
-    static create(id?: string): GeoFragment;
-    id: string;
-    area: Polygon | MultiPolygon;
-    constructor(id?: string);
-    contains(location: ILocation): boolean;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1a75a9e947047a16195ae711a2503124d926bcb74f6d2ab73005cd54471da2c
+size 310

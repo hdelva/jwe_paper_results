@@ -1,21 +1,3 @@
-import { inject, injectable } from "inversify";
-import TileCoordinate from "../../entities/tiles/TileCoordinate";
-import PathfinderProvider from "../../pathfinding/PathfinderProvider";
-import TYPES from "../../types";
-import IRoutableTileFetcher from "./IRoutableTileFetcher";
-import RoutableTileProviderDefault from "./RoutableTileProviderDefault";
-
-@injectable()
-export default class RoutableTileProviderTransit extends RoutableTileProviderDefault {
-
-  constructor(
-    @inject(TYPES.PathfinderProvider) pathfinderProvider: PathfinderProvider,
-    @inject(TYPES.RoutableTileFetcher) fetcher: IRoutableTileFetcher,
-  ) {
-      super(pathfinderProvider, fetcher);
-  }
-
-  public getIdForTileCoords(coordinate: TileCoordinate): string {
-    return `https://hdelva.be/tiles/reduced/${coordinate.zoom}/${coordinate.x}/${coordinate.y}`;
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f214b9b66c462c51b73bea2e61ee9e3fbdd1b597184708a523888f70864ea5fa
+size 838

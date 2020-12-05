@@ -1,14 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const flexible_transit_1 = __importDefault(require("../../configs/flexible_transit"));
-const Planner_1 = __importDefault(require("./Planner"));
-class FlexibleTransitPlanner extends Planner_1.default {
-    constructor() {
-        super(flexible_transit_1.default);
-    }
-}
-exports.default = FlexibleTransitPlanner;
-//# sourceMappingURL=FlexibleTransitPlanner.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f94393b984bba647780de1f02cf1edfc4fd16341a35604bf5cfb3992a8a9cad
+size 580

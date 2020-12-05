@@ -1,1 +1,3 @@
-{"version":3,"file":"RoutableTileProviderIntermediate.js","sourceRoot":"","sources":["../../../src/fetcher/tiles/RoutableTileProviderIntermediate.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;AAAA,yCAA+C;AAE/C,8FAAsE;AACtE,wDAAgC;AAEhC,gGAAwE;AAGxE,IAAqB,gCAAgC,GAArD,MAAqB,gCAAiC,SAAQ,qCAA2B;IAEvF,YACoC,kBAAsC,EACrC,OAA6B;QAE9D,KAAK,CAAC,kBAAkB,EAAE,OAAO,CAAC,CAAC;IACvC,CAAC;IAEM,kBAAkB,CAAC,UAA0B;QAClD,OAAO,mCAAmC,UAAU,CAAC,IAAI,IAAI,UAAU,CAAC,CAAC,IAAI,UAAU,CAAC,CAAC,EAAE,CAAC;IAC9F,CAAC;CACF,CAAA;AAZoB,gCAAgC;IADpD,sBAAU,EAAE;IAIR,WAAA,kBAAM,CAAC,eAAK,CAAC,kBAAkB,CAAC,CAAA;IAChC,WAAA,kBAAM,CAAC,eAAK,CAAC,mBAAmB,CAAC,CAAA;qCADoB,4BAAkB;GAHvD,gCAAgC,CAYpD;kBAZoB,gCAAgC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d6c320e82e2b15d7974c4f72bca280e8584b9fa162b24a84a06f9c68e9a651c
+size 679

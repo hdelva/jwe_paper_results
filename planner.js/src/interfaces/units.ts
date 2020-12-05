@@ -1,14 +1,3 @@
-/**
- * Represents duration in ms (milliseconds)
- */
-export type DurationMs = number;
-
-/**
- * Represents distance in m (meters)
- */
-export type DistanceM = number;
-
-/**
- * Represents duration in km/h (kilometers per hour)
- */
-export type SpeedKmH = number;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e37beee2575090a096621787e0445661e087f201efe94b3214c6d514e1504c20
+size 256

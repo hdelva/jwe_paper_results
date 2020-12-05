@@ -1,16 +1,3 @@
-import ReachableStopsFinderMode from "../../enums/ReachableStopsFinderMode";
-import IStopsProvider from "../../fetcher/stops/IStopsProvider";
-import ILocation from "../../interfaces/ILocation";
-import { DurationMs, SpeedKmH } from "../../interfaces/units";
-import IRoadPlanner from "../road/IRoadPlanner";
-import IReachableStopsFinder, { IReachableStop } from "./IReachableStopsFinder";
-export default class ReachableStopsFinderDelaunay implements IReachableStopsFinder {
-    private readonly stopsProvider;
-    private readonly roadPlanner;
-    private triangles;
-    private trianglePoints;
-    constructor(stopsProvider: IStopsProvider, roadPlanner: IRoadPlanner);
-    findReachableStops(location: ILocation, mode: ReachableStopsFinderMode, maximumDuration: DurationMs, minimumSpeed: SpeedKmH, profileID: string): Promise<IReachableStop[]>;
-    private getNearbyStops;
-    private prepare;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:31f18bee1047f150bee304ab9e3613458b2a0385f154e3011cfa6dc1157a22a2
+size 895

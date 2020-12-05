@@ -1,8 +1,3 @@
-import TileCoordinate from "../../entities/tiles/TileCoordinate";
-import PathfinderProvider from "../../pathfinding/PathfinderProvider";
-import IRoutableTileFetcher from "./IRoutableTileFetcher";
-import RoutableTileProviderDefault from "./RoutableTileProviderDefault";
-export default class RoutableTileProviderIntermediate extends RoutableTileProviderDefault {
-    constructor(pathfinderProvider: PathfinderProvider, fetcher: IRoutableTileFetcher);
-    getIdForTileCoords(coordinate: TileCoordinate): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:69a1c71a3606107b9a8e9de5928cc5ec344c0ee4c8cead9751e4f87fb04d81e5
+size 511

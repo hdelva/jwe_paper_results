@@ -1,1 +1,3 @@
-{"version":3,"file":"catalog.js","sourceRoot":"","sources":["../../../src/entities/catalog/catalog.ts"],"names":[],"mappings":";;;AAEA,MAAa,OAAO;IAShB,YAAY,EAAU;QAClB,IAAI,CAAC,EAAE,GAAG,EAAE,CAAC;IACjB,CAAC;IAVM,MAAM,CAAC,MAAM,CAAC,EAAU;QAC3B,OAAO,IAAI,OAAO,CAAC,EAAE,CAAC,CAAC;IAC3B,CAAC;CASJ;AAZD,0BAYC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:02bee3bed99bf0184f65f2e93ffb2465f882129c41b8f4d3bdd9b28f9583ca1d
+size 307

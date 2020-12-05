@@ -1,12 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class Embedding {
-    constructor(begin, intersection, wayNode, distance) {
-        this.beginPoint = begin;
-        this.intersectionPoint = intersection;
-        this.wayNode = wayNode;
-        this.distance = distance;
-    }
-}
-exports.default = Embedding;
-//# sourceMappingURL=embedding.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:94dd68eee61f6f979a8c59a5c42f349190c1a493dbaa3335673b0f322b838741
+size 373

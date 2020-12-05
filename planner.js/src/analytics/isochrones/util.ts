@@ -1,31 +1,3 @@
-import TileCoordinate from "../../entities/tiles/TileCoordinate";
-
-export function edgesOfTriangle(t) {
-    // from https://mapbox.github.io/delaunator
-    return [3 * t, 3 * t + 1, 3 * t + 2];
-}
-
-export function pointsOfTriangle(delaunay, t) {
-    // from https://mapbox.github.io/delaunator
-    return edgesOfTriangle(t)
-        .map((e) => delaunay.triangles[e]);
-}
-
-export function getNeighborTiles(coordinate: TileCoordinate): TileCoordinate[] {
-    const result = [];
-
-    for (const xDelta of [-1, 0, 1]) {
-        for (const yDelta of [-1, 0, 1]) {
-            if (xDelta || yDelta) {
-                const neighbor = {
-                    zoom: coordinate.zoom,
-                    y: coordinate.y + yDelta,
-                    x: coordinate.x + xDelta,
-                };
-                result.push(neighbor);
-            }
-        }
-    }
-
-    return result;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8ca2842ea4e4dc0b4f2ba8a8b33079c98ee722c982c5b56aa08783e89e0e4a5
+size 873

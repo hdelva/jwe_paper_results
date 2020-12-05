@@ -1,33 +1,3 @@
-import DropOffType from "../../../../enums/DropOffType";
-import PickupType from "../../../../enums/PickupType";
-import TravelMode from "../../../../enums/TravelMode";
-declare const connections: ({
-    value: {
-        id: string;
-        travelMode: TravelMode;
-        departureStop: string;
-        arrivalStop: string;
-        departureTime: Date;
-        arrivalTime: Date;
-        tripId: string;
-        nextConnection: string[];
-        "gtfs:pickupType": PickupType;
-        "gtfs:dropOffType": DropOffType;
-    };
-    done: boolean;
-} | {
-    value: {
-        id: string;
-        travelMode: TravelMode;
-        departureStop: string;
-        arrivalStop: string;
-        departureTime: Date;
-        arrivalTime: Date;
-        tripId: string;
-        "gtfs:pickupType": PickupType;
-        "gtfs:dropOffType": DropOffType;
-        nextConnection?: undefined;
-    };
-    done: boolean;
-})[];
-export default connections;
+version https://git-lfs.github.com/spec/v1
+oid sha256:30f0d5324e1c6e8593e1239d033a02baad6e71165d8e0cef9568cff5cb1be54a
+size 929

@@ -1,10 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const Catalog_1 = __importDefault(require("./Catalog"));
-const catalogTec = new Catalog_1.default();
-catalogTec.addStopsSource("https://openplanner.ilabt.imec.be/tec/stops");
-exports.default = catalogTec;
-//# sourceMappingURL=catalog.tec.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3a4c25ee9e7e9327d6e57faeebc9fb0864e3d7d2e6ea0e27776d08c48949357
+size 460

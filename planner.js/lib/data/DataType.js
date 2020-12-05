@@ -1,13 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var DataType;
-(function (DataType) {
-    DataType[DataType["Connections"] = 0] = "Connections";
-    DataType[DataType["Stops"] = 1] = "Stops";
-    DataType[DataType["RoutableTile"] = 2] = "RoutableTile";
-    DataType[DataType["ReducedRoutableTile"] = 3] = "ReducedRoutableTile";
-    DataType[DataType["Profile"] = 4] = "Profile";
-    DataType[DataType["Footpath"] = 5] = "Footpath";
-})(DataType || (DataType = {}));
-exports.default = DataType;
-//# sourceMappingURL=DataType.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:a81f14e83f7e3bc541acd42a8487af6bf64ee3c55700e47f61874b2b28401b64
+size 557

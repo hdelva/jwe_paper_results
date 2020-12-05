@@ -1,18 +1,3 @@
-import Edge from "./edge";
-export declare class RoutableTileWay {
-    static create(id: string): RoutableTileWay;
-    id: string;
-    segments: string[][];
-    distances?: number[][];
-    name: string;
-    reachable?: boolean;
-    maxSpeed?: number;
-    definedTags: object;
-    freeformTags: string[];
-    constructor(id: string);
-    mergeDefinitions(other: RoutableTileWay): RoutableTileWay;
-    getParts(): Edge[];
-}
-export interface IRoutableTileWayIndex {
-    [id: string]: RoutableTileWay;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8c27efa9492c54b54d2edcd87edd9dd3f51872c56c4e2d5fa4483212d6c0558
+size 499

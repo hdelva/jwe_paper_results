@@ -1,1 +1,3 @@
-{"version":3,"file":"FlexibleProfileTransitPlanner.js","sourceRoot":"","sources":["../../../src/planner/configurations/FlexibleProfileTransitPlanner.ts"],"names":[],"mappings":";;;;;AAAA,sGAA4D;AAC5D,wDAAgC;AAEhC,MAAqB,6BAA8B,SAAQ,iBAAO;IAC9D;QACI,KAAK,CAAC,kCAAM,CAAC,CAAC;IAClB,CAAC;CACJ;AAJD,gDAIC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bc42d72043e5be7787946c4cb83b52fd697ef3a1801592f0aedf756521aec99
+size 302

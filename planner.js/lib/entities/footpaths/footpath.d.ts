@@ -1,12 +1,3 @@
-import { DistanceM } from "../../interfaces/units";
-export declare class Footpath {
-    static create(id: string): Footpath;
-    from: string;
-    to: string;
-    distance: DistanceM;
-    id: string;
-    constructor(id: string);
-}
-export interface IFootpathIndex {
-    [id: string]: Footpath;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:54c33c44aa2b0f5751528694430156e1b617218a543af59f446a92a9bfd98b28
+size 295

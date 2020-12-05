@@ -1,21 +1,3 @@
-import * as turf from "@turf/turf";
-import { MultiPolygon, Polygon } from "@turf/turf";
-import ILocation from "../../interfaces/ILocation";
-
-export default class GeometryValue {
-    public static create(id?: string) {
-        return new GeometryValue(id);
-    }
-
-    public id: string;
-    public area: Polygon | MultiPolygon;
-
-    constructor(id?: string) {
-        this.id = id;
-    }
-
-    public contains(location: ILocation): boolean {
-        const pt = turf.point([location.longitude, location.latitude]); // x, y format
-        return turf.booleanPointInPolygon(pt, this.area);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:33341e44f87e611d1bc28c3a4631f86d3c1cd9e3a5cf2f9412ee5b32b43399f2
+size 593

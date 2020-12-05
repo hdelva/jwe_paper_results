@@ -1,16 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.RoutableTileNode = void 0;
-class RoutableTileNode {
-    constructor(id) {
-        this.id = id;
-        this.definedTags = {};
-        this.freeformTags = [];
-        this.proximity = {};
-    }
-    static create(id) {
-        return new RoutableTileNode(id);
-    }
-}
-exports.RoutableTileNode = RoutableTileNode;
-//# sourceMappingURL=RoutableTileNode.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:4531a6fcf2fd77cf4afad97d29c8fc4b67ccc7f0eea8b174d58b980b329457f6
+size 441

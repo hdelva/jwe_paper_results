@@ -1,10 +1,3 @@
-import { Catalog } from "../../entities/catalog/catalog";
-import ICatalogFetcher from "./ICatalogFetcher";
-import ICatalogProvider from "./ICatalogProvider";
-export default class CatalogProviderDefault implements ICatalogProvider {
-    private catalogs;
-    private fetcher;
-    constructor(fetcher: ICatalogFetcher);
-    getCatalog(catalogId: string): Promise<Catalog>;
-    getCatalogs(): Promise<Catalog[]>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5dc75f34fb351a1634836547558025fedee388c865f92fc5444fc3e8237501cf
+size 412

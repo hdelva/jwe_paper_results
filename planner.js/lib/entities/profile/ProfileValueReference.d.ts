@@ -1,11 +1,3 @@
-import { IEntity } from "../../loader/common";
-import { RoutableTileNode } from "../tiles/RoutableTileNode";
-import { RoutableTileWay } from "../tiles/RoutableTileWay";
-export default class ProfileValueReference implements IEntity {
-    static create(id: string): ProfileValueReference;
-    id: string;
-    from: string;
-    constructor(id: string);
-    getID(): string;
-    resolve(element: RoutableTileNode | RoutableTileWay): any;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:caa5d9c421bfffa148d3d01064b2f3e2c019f797617d60be736d3a438ab2e026
+size 436

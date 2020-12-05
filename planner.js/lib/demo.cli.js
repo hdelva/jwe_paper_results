@@ -1,16 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const demo_1 = __importDefault(require("./demo"));
-const isDebugging = process && process.argv.includes("--debug");
-(async () => {
-    if (isDebugging) { // tslint:disable-next-line:no-debugger
-        debugger;
-    }
-    demo_1.default(true)
-        .then((success) => console.log(success ? "Success" : "Fail"))
-        .catch((e) => console.error(e));
-})();
-//# sourceMappingURL=demo.cli.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:74853c8c58f4d048e5af9112a5cce35352b475e89f5dbf8529e84cf1e4630d59
+size 612

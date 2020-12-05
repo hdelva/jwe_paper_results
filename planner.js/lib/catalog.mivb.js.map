@@ -1,1 +1,3 @@
-{"version":3,"file":"catalog.mivb.js","sourceRoot":"","sources":["../src/catalog.mivb.ts"],"names":[],"mappings":";;;;;AAAA,wDAAgC;AAChC,oEAA4C;AAE5C,MAAM,WAAW,GAAG,IAAI,iBAAO,EAAE,CAAC;AAElC,WAAW,CAAC,cAAc,CAAC,8CAA8C,CAAC,CAAC;AAC3E,WAAW,CAAC,oBAAoB,CAAC,oDAAoD,EAAE,oBAAU,CAAC,GAAG,CAAC,CAAC;AAEvG,kBAAe,WAAW,CAAC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:df56fead3eeccb8906817699807c3dfc496fc3147bd65b085792d98404231616
+size 318

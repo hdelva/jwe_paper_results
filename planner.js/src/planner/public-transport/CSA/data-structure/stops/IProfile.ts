@@ -1,13 +1,3 @@
-import ITransferProfile from "./ITransferProfile";
-
-/**
- * Interface for the CSA profile.
- *
- * @property departureTime Describes the departure time in milliseconds to the target.
- * @property transferProfiles Stores an [[ITransferProfile]] for a maximum amount of transfers that can be made.
- */
-export default interface IProfile {
-  departureTime: number;
-
-  transferProfiles: ITransferProfile[];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:945fc8dde1a669d5d9cd29752b9e918815fa0d6f145c31a8b95e07107db31bcf
+size 401

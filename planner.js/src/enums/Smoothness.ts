@@ -1,12 +1,3 @@
-enum Smoothness {
-    Bad = "https://w3id.org/openstreetmap/terms#Bad",
-    Excellent = "https://w3id.org/openstreetmap/terms#Excellent",
-    Good = "https://w3id.org/openstreetmap/terms#Good",
-    Horrible = "https://w3id.org/openstreetmap/terms#Horrible",
-    Impassable = "https://w3id.org/openstreetmap/terms#Impassable",
-    Intermediate = "https://w3id.org/openstreetmap/terms#Intermediate",
-    VeryBad = "https://w3id.org/openstreetmap/terms#VeryBad",
-    VeryHorrible = "https://w3id.org/openstreetmap/terms#VeryHorrible",
-}
-
-export default Smoothness;
+version https://git-lfs.github.com/spec/v1
+oid sha256:853d81351421c54296a6cdae7b2663aacb0b5b45ce907d2293e4dc2d95bbe8d8
+size 562

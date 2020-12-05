@@ -1,1 +1,3 @@
-{"version":3,"file":"ProfileValueReference.js","sourceRoot":"","sources":["../../src/profile/ProfileValueReference.ts"],"names":[],"mappings":";;AAIA,MAAqB,qBAAqB;IAC/B,MAAM,CAAC,MAAM,CAAC,EAAU;QAC3B,OAAO,IAAI,qBAAqB,CAAC,EAAE,CAAC,CAAC;IACzC,CAAC;IAKD,YAAY,EAAU;QAClB,IAAI,CAAC,EAAE,GAAG,EAAE,CAAC;IACjB,CAAC;IAEM,KAAK;QACR,OAAO,IAAI,CAAC,EAAE,CAAC;IACnB,CAAC;IAEM,OAAO,CAAC,OAA2C;QACtD,OAAO,OAAO,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC;IAC9B,CAAC;CACJ;AAnBD,wCAmBC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa5e275e96733e8ab99d54a72c220a95a91e199d72d815f695f291807917decf
+size 458

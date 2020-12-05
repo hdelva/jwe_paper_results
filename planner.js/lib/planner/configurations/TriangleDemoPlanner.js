@@ -1,14 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const triangle_demo_1 = __importDefault(require("../../configs/triangle_demo"));
-const Planner_1 = __importDefault(require("./Planner"));
-class TriangleDemoPlanner extends Planner_1.default {
-    constructor() {
-        super(triangle_demo_1.default);
-    }
-}
-exports.default = TriangleDemoPlanner;
-//# sourceMappingURL=TriangleDemoPlanner.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:3359f6c537f2cc51bd3c66d50c186e60d4ccaa223032729afbc8515d27c45e0b
+size 562

@@ -1,18 +1,3 @@
-import { DistanceM, DurationMs } from "../../interfaces/units";
-import { RoutableTileNode } from "../tiles/node";
-import { RoutableTileWay } from "../tiles/way";
-import Profile from "./Profile";
-export default class PedestrianProfile extends Profile {
-    getID(): string;
-    isOneWay(way: RoutableTileWay): boolean;
-    hasAccess(way: RoutableTileWay): boolean;
-    getDefaultSpeed(): number;
-    getMaxSpeed(): number;
-    getSpeed(way: RoutableTileWay): number;
-    getDistance(from: RoutableTileNode, to: RoutableTileNode, way: RoutableTileWay): DistanceM;
-    getDuration(from: RoutableTileNode, to: RoutableTileNode, way: RoutableTileWay): DurationMs;
-    getMultiplier(way: RoutableTileWay): number;
-    getCost(from: RoutableTileNode, to: RoutableTileNode, way: RoutableTileWay): number;
-    isObstacle(node: RoutableTileNode): boolean;
-    getObstacleTime(node: RoutableTileNode): DurationMs;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6db06eb1e0226007e1e398684c2469b69d4ff1d74fa4fc8c9015032b6abedd63
+size 905

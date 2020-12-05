@@ -1,16 +1,3 @@
-import { RoutableTileWay } from "../tiles/RoutableTileWay";
-import DynamicProfile from "./DynamicProfile";
-export default class CharacteristicProfile extends DynamicProfile {
-    static create(url: string): CharacteristicProfile;
-    private accessCache;
-    private onewayCache;
-    private speedCache;
-    private priorityCache;
-    constructor(url: string);
-    getID(): string;
-    isOneWay(way: RoutableTileWay): boolean;
-    hasAccess(way: RoutableTileWay): boolean;
-    getSpeed(way: RoutableTileWay): number;
-    getMultiplier(way: RoutableTileWay): number;
-    private getWayCharacteristic;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:91dad2afd30a1452df8c58ee93daaa3bab406339f3a659e95469562add4ec52d
+size 602

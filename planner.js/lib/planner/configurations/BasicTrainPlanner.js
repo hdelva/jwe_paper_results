@@ -1,14 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const basic_train_1 = __importDefault(require("../../configs/basic_train"));
-const Planner_1 = __importDefault(require("./Planner"));
-class BasicTrainPlanner extends Planner_1.default {
-    constructor() {
-        super(basic_train_1.default);
-    }
-}
-exports.default = BasicTrainPlanner;
-//# sourceMappingURL=BasicTrainPlanner.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb132941fa1b3d7519ce4ec5d854e8c145f2d75f4647cec4cf4425a6b0f0a9b9
+size 550

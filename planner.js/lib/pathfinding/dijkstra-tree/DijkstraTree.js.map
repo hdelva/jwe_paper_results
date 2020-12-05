@@ -1,1 +1,3 @@
-{"version":3,"file":"DijkstraTree.js","sourceRoot":"","sources":["../../../src/pathfinding/dijkstra-tree/DijkstraTree.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,yCAAuC;AAKvC,kFAA0D;AAU1D,IAAqB,YAAY,GAAjC,MAAqB,YAAY;IACxB,cAAc,CAAC,KAAuB;QAC3C,OAAO,IAAI,8BAAoB,CAAC,KAAK,CAAC,CAAC;IACzC,CAAC;CACF,CAAA;AAJoB,YAAY;IADhC,sBAAU,EAAE;GACQ,YAAY,CAIhC;kBAJoB,YAAY"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e596ec044bf40d3f1bffa81c69504d6a34d9b2cda0cc352c3f9d95a9fae6390
+size 359

@@ -1,19 +1,3 @@
-import IStop from "../fetcher/stops/IStop";
-import IStopsProvider from "../fetcher/stops/IStopsProvider";
-import ILocation from "../interfaces/ILocation";
-import ILocationResolver from "./ILocationResolver";
-/**
- * This default location resolver resolves [[ILocation]] instances by their `id` (`http(s)://...`)
- *
- * If only an `id` string is passed, it returns an [[ILocation]] with all available information.
- *
- * If an incomplete [[ILocation]] (but with an `id`) is passed, it gets supplemented as well.
- */
-export default class LocationResolverDefault implements ILocationResolver {
-    private readonly stopsProvider;
-    private readonly tileRegistry;
-    constructor(stopsProvider: IStopsProvider);
-    resolve(input: ILocation | IStop | string): Promise<ILocation>;
-    private resolveById;
-    private isId;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:97ec50a9bd3d23bcbfa2b17ee611638264b501a2632c8349817d48a2e911ddc8
+size 820

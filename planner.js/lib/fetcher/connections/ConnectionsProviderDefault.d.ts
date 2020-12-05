@@ -1,22 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import { IConnectionsSourceConfig } from "../../Catalog";
-import IConnection from "../../entities/connections/connections";
-import { LinkedConnectionsPage } from "../../entities/connections/page";
-import { ConnectionsFetcherFactory } from "../../types";
-import IHydraTemplateFetcher from "../hydra/IHydraTemplateFetcher";
-import IConnectionsIteratorOptions from "./IConnectionsIteratorOptions";
-import IConnectionsProvider from "./IConnectionsProvider";
-export default class ConnectionsProviderDefault implements IConnectionsProvider {
-    private sources;
-    private singleProviders;
-    private connectionsFetcherFactory;
-    private templateFetcher;
-    constructor(connectionsFetcherFactory: ConnectionsFetcherFactory, templateFetcher: IHydraTemplateFetcher);
-    addConnectionSource(source: IConnectionsSourceConfig): void;
-    getSources(): IConnectionsSourceConfig[];
-    prefetchConnections(lowerBound: Date, upperBound: Date): void;
-    createIterator(options: IConnectionsIteratorOptions): Promise<AsyncIterator<IConnection>>;
-    appendIterator(options: IConnectionsIteratorOptions, existingIterator: AsyncIterator<IConnection>): Promise<AsyncIterator<IConnection>>;
-    getByUrl(url: string): Promise<LinkedConnectionsPage>;
-    getByTime(date: Date): Promise<LinkedConnectionsPage>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:befb5844a567c97cbfcbf1e07ee9155e13c3f35d59d74d2abac335569682e492
+size 1346

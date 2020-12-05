@@ -1,11 +1,3 @@
-import HypermediaTree from "../../entities/tree/tree";
-import IHypermediaTreeProvider from "./IHeadermediaTreeProvider";
-import IHypermediaTreeFetcher from "./IHypermediaTreeFetcher";
-export default class HypermediaTreeProviderDefault implements IHypermediaTreeProvider {
-    private accessUrls;
-    private allTrees;
-    private treeFetcher;
-    constructor(treeFetcher: IHypermediaTreeFetcher);
-    addTreeSource(accessUrl: string): void;
-    getAllTrees(): Promise<HypermediaTree[]>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:578028cc29d439a859b29366b1995323b5af0249592009ff5342e6d80cdae8e8
+size 489

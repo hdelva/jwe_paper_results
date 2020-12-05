@@ -1,9 +1,3 @@
-import IConnection from "../../../../../entities/connections/connections";
-/**
- * @property arrivalTime Describes the earliest arrival time in milliseconds to the target [[IStop]].
- * @property connection Describes the [[IConnection]] that should be taken to arrive
- * at the arrivalTime in the target location.
- */
-export default interface IEnterConnectionByTrip {
-    [trip: string]: IConnection;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3385dadf4af8a1bf07a9166c373601c04cf41610250608698f516540fc42892d
+size 401

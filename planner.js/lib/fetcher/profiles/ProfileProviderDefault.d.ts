@@ -1,14 +1,3 @@
-import Profile from "../../entities/profile/Profile";
-import IProfileFetcher from "./IProfileFetcher";
-import IProfileProvider from "./IProfileProvider";
-export default class ProfileProviderDefault implements IProfileProvider {
-    private profiles;
-    private fetcher;
-    private developmentProfile;
-    private developmentProfileCounter;
-    constructor(fetcher: IProfileFetcher);
-    parseDevelopmentProfile(blob: object): Promise<string>;
-    addProfile(profile: Profile): void;
-    getProfile(profileId: string): Promise<Profile>;
-    getProfiles(): Promise<Profile[]>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:62e13fb41c389ec89fce1d0318f83eeca2d0e4a3627c097c2a5cdf705b44814b
+size 579

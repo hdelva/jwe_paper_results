@@ -1,8 +1,3 @@
-import { IEntity, IEntityMap } from "../common";
-import { IThingViewResult } from "./common";
-export declare class IndexThingViewResult<T extends IEntity> implements IThingViewResult<T> {
-    private contents;
-    constructor();
-    addEntity(entity: T): void;
-    getContents(): IEntityMap<T>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0d31b2bc0605df82aefa3cb5839065af2cfb31e5376fb2d3d3aeb4eb68849b1
+size 297

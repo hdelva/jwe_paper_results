@@ -1,12 +1,3 @@
-import ReachableStopsFinderMode from "../../enums/ReachableStopsFinderMode";
-import IFootpathsProvider from "../../fetcher/footpaths/IFootpathsProvider";
-import IStop from "../../fetcher/stops/IStop";
-import IStopsProvider from "../../fetcher/stops/IStopsProvider";
-import { DurationMs, SpeedKmH } from "../../interfaces/units";
-import { IReachableStop } from "./IReachableStopsFinder";
-import ReachableStopsFinderFootpaths from "./ReachableStopsFinderFootpaths";
-export default class ReachableStopsFinderFootpathsVerbose extends ReachableStopsFinderFootpaths {
-    private done;
-    constructor(stopsProvider: IStopsProvider, footpathsProvider: IFootpathsProvider);
-    findReachableStops(sourceOrTargetStop: IStop, mode: ReachableStopsFinderMode, maximumDuration: DurationMs, minimumSpeed: SpeedKmH): Promise<IReachableStop[]>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c986688642ac40c7b967e1e37213ba96a5049db1e2436c618a87857d5d6f2e8
+size 832

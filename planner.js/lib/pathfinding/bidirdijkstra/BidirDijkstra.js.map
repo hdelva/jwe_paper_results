@@ -1,1 +1,3 @@
-{"version":3,"file":"BidirDijkstra.js","sourceRoot":"","sources":["../../../src/pathfinding/bidirdijkstra/BidirDijkstra.ts"],"names":[],"mappings":";;;;;;;;;AAAA,yCAAuC;AAGvC,mEAAgE;AAGhE,IAAa,aAAa,GAA1B,MAAa,aAAa;IACf,cAAc,CAAC,KAAuB;QACzC,OAAO,IAAI,6CAAqB,CAAC,KAAK,CAAC,CAAC;IAC5C,CAAC;CACJ,CAAA;AAJY,aAAa;IADzB,sBAAU,EAAE;GACA,aAAa,CAIzB;AAJY,sCAAa"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:77455a7a11524842eb5d9ee355c5a826e9b433e536f2a522899af319e57a573b
+size 354

@@ -1,12 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import IPath from "../../interfaces/IPath";
-import IResolvedQuery from "../../query-runner/IResolvedQuery";
-import IProfileByStop from "./CSA/data-structure/stops/IProfileByStop";
-import IProfilesByStop from "./CSA/data-structure/stops/IProfilesByStop";
-
-export default interface IJourneyExtractor {
-  extractJourneys: (
-    profilesByStop: IProfilesByStop | IProfileByStop,
-    query: IResolvedQuery,
-  ) => Promise<AsyncIterator<IPath>>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:66b20fedc244059a8c585461662d02b4bee69adb8c2a8f7ffe5cb0b90adc9c0b
+size 489

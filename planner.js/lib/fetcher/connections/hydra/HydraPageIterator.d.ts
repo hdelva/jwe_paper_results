@@ -1,14 +1,3 @@
-import { BufferedIterator } from "asynciterator";
-import LdFetch from "ldfetch";
-import IHydraPage from "./IHydraPage";
-import IHydraPageIteratorConfig from "./IHydraPageIteratorConfig";
-export default class HydraPageIterator extends BufferedIterator<IHydraPage> {
-    private readonly baseUrl;
-    private readonly ldFetch;
-    private readonly config;
-    private currentPage;
-    constructor(baseUrl: string, ldFetch: LdFetch, config: IHydraPageIteratorConfig);
-    _begin(done: () => void): void;
-    _read(count: number, done: () => void): void;
-    private loadPage;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1595ce254a063052b60eb7f12de3d694b6845b94947bf85d643ce7e2941960de
+size 575

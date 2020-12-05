@@ -1,24 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class URI {
-    static inNS(ns, id) {
-        // this probably misses a lot of special cases
-        // but it'll do for now
-        const lastChar = ns[ns.length - 1];
-        if (lastChar === "/") {
-            return `${ns}${id}`;
-        }
-        else if (lastChar === "#") {
-            return `${ns}${id}`;
-        }
-        else {
-            return `${ns}#${id}`;
-        }
-    }
-    static fakeExpand(ns, id) {
-        // discards the prefix and places it the specified NS
-        return this.inNS(ns, id.substring(4));
-    }
-}
-exports.default = URI;
-//# sourceMappingURL=uri.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:3bc9afa9cc559f1933fb37d895c96141629e08b177459d7d7c00a6a1c500d0a7
+size 669

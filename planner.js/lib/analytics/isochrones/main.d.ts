@@ -1,27 +1,3 @@
-import "isomorphic-fetch";
-import "reflect-metadata";
-import ILocation from "../../interfaces/ILocation";
-export default class IsochroneGenerator {
-    private pathfinderProvider;
-    private tileProvider;
-    private reachedTiles;
-    private startPoint;
-    private registry;
-    private profileProvider;
-    private eventBus;
-    private activeProfile;
-    private loaded;
-    private embedded;
-    private showIncremental;
-    private showDebugLogs;
-    constructor(point: ILocation, container?: import("inversify/dts/container/container").Container);
-    enableIncrementalResults(): void;
-    enableDebugLogs(): void;
-    setDevelopmentProfile(blob: object): Promise<void>;
-    setProfileID(profileID: string): Promise<void>;
-    getIsochrone(maxDuration: number, reset?: boolean): Promise<{
-        isochrones: any[];
-    }>;
-    private fetchTile;
-    private embedBeginPoint;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3320cb3ad05451ec61955d61537010ae7fce91c2e70e55dbf4580b0542f27fba
+size 886

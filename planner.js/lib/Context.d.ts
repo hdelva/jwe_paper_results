@@ -1,12 +1,3 @@
-import { Container } from "inversify";
-/**
- * The Context serves as event pass through and holder of the inversify container object.
- *
- * It proxies an internal EventEmitter (instead of extending EventEmitter) because
- * ´decorate(injectable(), EventEmitter)´ causes errors when running tests in Jest
- */
-export default class Context {
-    private container;
-    setContainer(container: Container): void;
-    getContainer(): Container;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:331040510faa0ed5eb56847f6e2cb0bd685fee80ae0964f4c08a5bbebf0f209a
+size 441

@@ -1,13 +1,3 @@
-import LDFetch from "ldfetch";
-import Rdf from "../util/Rdf";
-
-const ldfetch = new LDFetch({ headers: { Accept: "application/ld+json" } });
-
-// ldfetch.get("http://irail.be/stations/NMBS/008896008")
-ldfetch.get("https://openplanner.ilabt.imec.be/delijn/Limburg/stops")
-  .then((response) => {
-    Rdf.logTripleTable(response.triples);
-  })
-  .catch((reason) => {
-    console.log(reason);
-  });
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c18eaaa9220724da45a4a29cb679722d738c0bc35ba9b5afd3fdd5651372102
+size 394

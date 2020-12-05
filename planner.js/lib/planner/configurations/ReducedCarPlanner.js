@@ -1,22 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const reduced_car_1 = __importDefault(require("../../configs/reduced_car"));
-const Planner_1 = __importDefault(require("./Planner"));
-class TransitCarPlanner extends Planner_1.default {
-    constructor() {
-        super(reduced_car_1.default);
-        this.setProfileID("http://hdelva.be/profile/car");
-    }
-    query(query) {
-        query.roadNetworkOnly = true;
-        return super.query(query);
-    }
-    async completePath(path) {
-        return path;
-    }
-}
-exports.default = TransitCarPlanner;
-//# sourceMappingURL=ReducedCarPlanner.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:127298b4fc157b7353f7e8d8070367aa549b6a928f881a241cee4f2043837892
+size 765

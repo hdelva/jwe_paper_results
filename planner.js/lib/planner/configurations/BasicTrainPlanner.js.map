@@ -1,1 +1,3 @@
-{"version":3,"file":"BasicTrainPlanner.js","sourceRoot":"","sources":["../../../src/planner/configurations/BasicTrainPlanner.ts"],"names":[],"mappings":";;;;;AAAA,4EAA0D;AAC1D,wDAAgC;AAEhC,MAAqB,iBAAkB,SAAQ,iBAAO;IAClD;QACI,KAAK,CAAC,qBAAiB,CAAC,CAAC;IAC7B,CAAC;CACJ;AAJD,oCAIC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b23c0a92671ca418ccfb8a5e6b6ccece0feb059b5110f31f4a793a24b3192e9
+size 279

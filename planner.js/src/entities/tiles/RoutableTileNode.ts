@@ -1,30 +1,3 @@
-import Barrier from "../../enums/Barrier";
-import Crossing from "../../enums/Crossing";
-import Highway from "../../enums/Highway";
-import ILocation from "../../interfaces/ILocation";
-
-export class RoutableTileNode implements ILocation {
-    public static create(id: string) {
-        return new RoutableTileNode(id);
-    }
-
-    public latitude: number;
-    public longitude: number;
-    public id: string;
-
-    public definedTags: object;
-    public freeformTags: string[];
-
-    public proximity;
-
-    constructor(id: string) {
-        this.id = id;
-        this.definedTags = {};
-        this.freeformTags = [];
-        this.proximity = {};
-    }
-}
-
-export interface IRoutableTileNodeIndex {
-    [id: string]: RoutableTileNode;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:401a6552b024d3614d45b143a6ca1dde3d5f06a10e0b3197174dee16bba73488
+size 731

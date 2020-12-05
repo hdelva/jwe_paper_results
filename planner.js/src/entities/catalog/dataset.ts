@@ -1,19 +1,3 @@
-import DatasetDistribution from "./dataset_distribution";
-
-export class Dataset {
-    public static create(id: string) {
-        return new Dataset(id);
-    }
-
-    public id: string;
-    public subject: string;
-    public description: string;
-    public title: string;
-    public area: string;
-    public rights: string;
-    public distributions: DatasetDistribution[];
-
-    constructor(id: string) {
-        this.id = id;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:61b3b1a29cce9f614573bde71e1578c404942117442c9121b26f67d379e3fa70
+size 431

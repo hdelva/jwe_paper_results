@@ -1,18 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.RoutableTileSet = void 0;
-const RoutableTile_1 = require("./RoutableTile");
-class RoutableTileSet extends RoutableTile_1.RoutableTile {
-    constructor(tiles, id) {
-        let nodes = new Array();
-        let ways = new Array();
-        for (const tile of tiles) {
-            nodes = nodes.concat(...tile.getNodes());
-            ways = ways.concat(...tile.getWays());
-        }
-        super(id, new Set(nodes), new Set(ways));
-        this.tiles = tiles;
-    }
-}
-exports.RoutableTileSet = RoutableTileSet;
-//# sourceMappingURL=RoutableTileSet.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:4308dd61f230c12e3212f67a974c46543e74cffee4d432be9d667ac45911a4cd
+size 638

@@ -1,15 +1,3 @@
-import PathfindingGraph from "../graph";
-import { IShortestPathInstance } from "../pathfinder";
-export declare class DijkstraInstance implements IShortestPathInstance {
-    private graph;
-    private useWeightedCost;
-    private costs;
-    private previousNodes;
-    constructor(graph: PathfindingGraph);
-    setUseWeightedCost(useWeightedCost: boolean): void;
-    setBreakPoint(on: string, callback: (on: string) => Promise<void>): void;
-    removeBreakPoint(on: string): void;
-    queryPath(from: string, to: string, maxDistance?: number): Promise<any[]>;
-    private setCost;
-    private getCost;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a130977337e0e272c62cd613c8727e4db38bde796088b90c2f93affe9b7a7ab
+size 602

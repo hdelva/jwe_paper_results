@@ -1,14 +1,3 @@
-import LDFetch from "ldfetch";
-import { HydraTemplateMapping } from "../../entities/hydra/mapping";
-import { HydraTemplate } from "../../entities/hydra/search";
-import { LDLoader } from "../../loader/ldloader";
-import { ThingView } from "../../loader/views/single";
-import IHydraTemplateFetcher from "./IHydraTemplateFetcher";
-export default class HydraTemplateFetcherDefault implements IHydraTemplateFetcher {
-    protected ldFetch: LDFetch;
-    protected ldLoader: LDLoader;
-    constructor(ldFetch: LDFetch);
-    get(url: string): Promise<HydraTemplate>;
-    protected getView(): ThingView<HydraTemplate>;
-    protected getMappingView(): ThingView<HydraTemplateMapping>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:30d611f8b79ae3b668ca0c110faeb50860a281c82f990db0cd7616116d4deaca
+size 676

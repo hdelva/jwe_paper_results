@@ -1,1 +1,3 @@
-{"version":3,"file":"TriangleTransitPlanner.js","sourceRoot":"","sources":["../../../src/planner/configurations/TriangleTransitPlanner.ts"],"names":[],"mappings":";;;;;AAAA,sFAAiE;AACjE,wDAAgC;AAEhC,MAAqB,sBAAuB,SAAQ,iBAAO;IACvD;QACI,KAAK,CAAC,0BAAmB,CAAC,CAAC;IAC/B,CAAC;CACJ;AAJD,yCAIC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b053b0baae256538c8f3fc7e59c6cc13118348e60ccb401c888347d72bfa5ce9
+size 289

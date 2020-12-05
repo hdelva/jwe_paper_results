@@ -1,10 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var QueryMode;
-(function (QueryMode) {
-    QueryMode[QueryMode["CSAEarliestArrival"] = 0] = "CSAEarliestArrival";
-    QueryMode[QueryMode["CSAProfile"] = 1] = "CSAProfile";
-    QueryMode[QueryMode["Dijkstra"] = 2] = "Dijkstra";
-})(QueryMode || (QueryMode = {}));
-exports.default = QueryMode;
-//# sourceMappingURL=QueryMode.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:35435b40889c580460024ec3065ff2a670b9610cea822ca0499a43eed5fcc6d0
+size 406

@@ -1,1 +1,3 @@
-{"version":3,"file":"relation.js","sourceRoot":"","sources":["../../../src/entities/tree/relation.ts"],"names":[],"mappings":";;AAEA,IAAK,aAEJ;AAFD,WAAK,aAAa;IACd,8FAA6E,CAAA;AACjF,CAAC,EAFI,aAAa,KAAb,aAAa,QAEjB;AAED,MAAqB,sBAAsB;IAUvC,YAAY,EAAW;QACnB,IAAI,CAAC,EAAE,GAAG,EAAE,CAAC;IACjB,CAAC;IAXM,MAAM,CAAC,MAAM,CAAC,EAAW;QAC5B,OAAO,IAAI,sBAAsB,CAAC,EAAE,CAAC,CAAC;IAC1C,CAAC;CAUJ;AAbD,yCAaC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:942b9873b60145d3c4d72c83fe02470c1b78e6fde3b24f22d3c8db2ccae750bc
+size 394

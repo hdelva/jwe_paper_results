@@ -1,21 +1,3 @@
-import LDFetch from "ldfetch";
-import { IStopsSourceConfig } from "../../../Catalog";
-import IStop from "../IStop";
-import IStopsFetcher from "../IStopsFetcher";
-export default class StopsFetcherLDFetch implements IStopsFetcher {
-    private accessUrl;
-    private ldFetch;
-    private loadPromise;
-    private stops;
-    constructor(ldFetch: LDFetch);
-    addStopSource(source: IStopsSourceConfig): void;
-    getSources(): IStopsSourceConfig[];
-    setAccessUrl(accessUrl: string): void;
-    prefetchStops(): void;
-    getStopById(stopId: string): Promise<IStop>;
-    getAllStops(): Promise<IStop[]>;
-    private ensureStopsLoaded;
-    private loadStops;
-    private transformPredicate;
-    private parseTriples;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e031fec81f58825118681f711b7f4fc4d7e6f76e5905b811623684267c5b445
+size 716

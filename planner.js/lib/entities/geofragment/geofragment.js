@@ -1,24 +1,3 @@
-"use strict";
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result["default"] = mod;
-    return result;
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const turf = __importStar(require("@turf/turf"));
-class GeoFragment {
-    constructor(id) {
-        this.id = id;
-    }
-    static create(id) {
-        return new GeoFragment(id);
-    }
-    contains(location) {
-        const pt = turf.point([location.longitude, location.latitude]); // x, y format
-        return turf.booleanPointInPolygon(pt, this.area);
-    }
-}
-exports.default = GeoFragment;
-//# sourceMappingURL=geofragment.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff5e1b7e1b346516058714afa4e50f96824f886e06ee9ac0be907401ed676e92
+size 793

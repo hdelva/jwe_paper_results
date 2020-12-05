@@ -1,8 +1,3 @@
-import IStopsProvider from "./IStopsProvider";
-
-/**
- * Represents one data source of stops, e.g. De Lijn or NMBS
- * Extends [[IStopsProvider]] because it should implement the same methods
- */
-export default interface IStopsFetcher extends IStopsProvider {
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:387e0030d8a2719651b9177d82bc2b1a629374b4905dcaf376cb06d19775559a
+size 258

@@ -1,27 +1,3 @@
-import "isomorphic-fetch";
-import "reflect-metadata";
-import ILocation from "../../interfaces/ILocation";
-import { IPathTree } from "../../pathfinding/pathfinder";
-export default class TrafficEstimator {
-    private pathfinderProvider;
-    private baseTileProvider;
-    private transitTileProvider;
-    private reachedTiles;
-    private startPoint;
-    private registry;
-    private profileProvider;
-    private eventBus;
-    private activeProfile;
-    private loaded;
-    private embedded;
-    private showIncremental;
-    constructor(point: ILocation, container?: import("inversify/dts/container/container").Container);
-    enableIncrementalResults(): void;
-    setDevelopmentProfile(blob: object): Promise<void>;
-    setProfileID(profileID: string): Promise<void>;
-    startSimulation(nodes: Set<string>, timeM: number): AsyncGenerator<any, void, unknown>;
-    getAreaTree(maxDuration: number, steps: number): AsyncGenerator<IPathTree, void, unknown>;
-    private pruneTree;
-    private embedBeginPoint;
-    private fetchTile;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2bbb630f8b6910000a18052e3e70b72f06d3ca3fc279e95c79cc4cc9f50893d
+size 1032

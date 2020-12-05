@@ -1,17 +1,3 @@
-import IArrivalTimeByTransfers from "../IArrivalTimeByTransfers";
-import IProfile from "./IProfile";
-import ITransferProfile from "./ITransferProfile";
-/**
- * A factory that create's an [[IProfile]] based on the maximum amount of transfers and/or [[ITransferProfile]]s.
- *
- * @implements [[IProfile]]
- */
-export default class Profile implements IProfile {
-    static create(amountOfTransfers: number): Profile;
-    static createFromTransfers(departureTime: number, transferProfiles?: ITransferProfile[]): Profile;
-    departureTime: number;
-    transferProfiles: ITransferProfile[];
-    constructor(amountOfTransfers: number, departureTime?: number, transferProfiles?: ITransferProfile[]);
-    isDominated(arrivalTimeByTransfers: IArrivalTimeByTransfers, departureTime: number): boolean;
-    getArrivalTimeByTransfers(tripId?: string): IArrivalTimeByTransfers;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b7fdb78f53cf4fa9d30d577d519bdfe4f7094e91d6fee8d34d86cd69b79e558
+size 863

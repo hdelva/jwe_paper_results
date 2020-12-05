@@ -1,11 +1,3 @@
-enum Cycleway {
-    Lane = "https://w3id.org/openstreetmap/terms#Lane",
-    Opposite = "https://w3id.org/openstreetmap/terms#Opposite",
-    OppositeLane = "https://w3id.org/openstreetmap/terms#OppositeLane",
-    OppositeTrack = "https://w3id.org/openstreetmap/terms#OppositeTrack",
-    ShareBusway = "https://w3id.org/openstreetmap/terms#ShareBusway",
-    Shared = "https://w3id.org/openstreetmap/terms#Shared",
-    SharedLane = "https://w3id.org/openstreetmap/terms#SharedLane",
-}
-
-export default Cycleway;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e672ca7f76c275976e6f05ad8a6d966c471e409b1de94b3ce3d9375b4589d10
+size 508

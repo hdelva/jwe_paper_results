@@ -1,13 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.HydraEntity = void 0;
-class HydraEntity {
-    constructor(id) {
-        this.id = id;
-    }
-    static create(id) {
-        return new HydraEntity(id);
-    }
-}
-exports.HydraEntity = HydraEntity;
-//# sourceMappingURL=hydra.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d0fbff07a808fdf75ecd448eb7027bb9f04345bb3117c5de20b34b3c84dbb6d
+size 313

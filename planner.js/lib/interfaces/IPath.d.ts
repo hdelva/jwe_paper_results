@@ -1,14 +1,3 @@
-import ILeg from "./ILeg";
-import IQuery from "./IQuery";
-import { DurationMs } from "./units";
-export default interface IPath {
-    legs: ILeg[];
-    updateContext(other: object): any;
-    addToContext(id: string, value: any): any;
-    getContext(): object;
-    getFromContext(id: string): any;
-    getDepartureTime(query: IQuery): Date;
-    getArrivalTime(query: IQuery): Date;
-    getTravelTime(query: IQuery): DurationMs;
-    getTransferTime(query: IQuery): DurationMs;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a952b6c33c28af42fc902b0a62042cee4add34d7ccb5ca9b5ca33cf4ce67b5e5
+size 476

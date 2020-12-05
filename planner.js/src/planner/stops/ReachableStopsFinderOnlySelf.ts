@@ -1,23 +1,3 @@
-import { injectable } from "inversify";
-import ReachableStopsFinderMode from "../../enums/ReachableStopsFinderMode";
-import IStop from "../../fetcher/stops/IStop";
-import { DurationMs, SpeedKmH } from "../../interfaces/units";
-import IReachableStopsFinder, { IReachableStop } from "./IReachableStopsFinder";
-
-/**
- * This [[IReachableStopsFinder]] just returns the passed source or target stop.
- *
- * This can be a valid strategy to optimize speed if the user doesn't want to travel by foot to another stop
- */
-@injectable()
-export default class ReachableStopsFinderOnlySelf implements IReachableStopsFinder {
-
-  public async findReachableStops(
-    sourceOrTargetStop: IStop,
-    mode: ReachableStopsFinderMode,
-    maximumDuration: DurationMs,
-    minimumSpeed: SpeedKmH,
-  ): Promise<IReachableStop[]> {
-    return [{ stop: sourceOrTargetStop, duration: 0 }];
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6449a6ce7f32707213a10dc8a4f15d95add2ac1daae18b5c3abb938261c04e37
+size 868

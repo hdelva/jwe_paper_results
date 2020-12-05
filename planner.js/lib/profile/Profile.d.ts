@@ -1,17 +1,3 @@
-import { RoutableTileNode } from "../entities/tiles/node";
-import { RoutableTileWay } from "../entities/tiles/way";
-import ILocation from "../interfaces/ILocation";
-import { DistanceM, DurationMs } from "../interfaces/units";
-export default abstract class Profile {
-    abstract getID(): string;
-    abstract isOneWay(way: RoutableTileWay): boolean;
-    abstract hasAccess(way: RoutableTileWay): boolean;
-    abstract getDefaultSpeed(): number;
-    abstract getMaxSpeed(): number;
-    abstract getSpeed(way: RoutableTileWay): number;
-    abstract getDistance(from: ILocation, to: ILocation, way: RoutableTileWay): DistanceM;
-    abstract getDuration(from: ILocation, to: ILocation, way: RoutableTileWay): DurationMs;
-    abstract getMultiplier(way: RoutableTileWay): number;
-    abstract getCost(from: ILocation, to: ILocation, way: RoutableTileWay): number;
-    abstract isObstacle(node: RoutableTileNode): boolean;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f95458311e5bb9f7856f72433367cd7ec7661f89a32c427eaf684b7f50a26231
+size 919

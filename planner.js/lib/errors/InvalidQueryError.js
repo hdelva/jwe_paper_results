@@ -1,14 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const EventType_1 = __importDefault(require("../events/EventType"));
-class InvalidQueryError extends Error {
-    constructor() {
-        super(...arguments);
-        this.eventType = EventType_1.default.InvalidQuery;
-    }
-}
-exports.default = InvalidQueryError;
-//# sourceMappingURL=InvalidQueryError.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc7cce4e27052d66993c61f65671ebb5652f6602ece3e6016a864482aeccd936
+size 523

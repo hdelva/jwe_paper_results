@@ -1,13 +1,3 @@
-import Units from "./util/Units";
-
-/**
- * This class holds the default [[IQuery]]/[[IResolvedQuery]] parameters
- */
-export default class Defaults {
-  public static readonly defaultMinimumWalkingSpeed = 3;
-  public static readonly defaultMaximumWalkingSpeed = 6;
-  public static readonly defaultWalkingDuration = Units.fromMinutes(10);
-  public static readonly defaultMinimumTransferDuration = Units.fromMinutes(1);
-  public static readonly defaultMaximumTransferDuration = Units.fromMinutes(25);
-  public static readonly defaultMaximumTransfers = 4;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:581f9bb413aa36e51bfb12a7966742a5fba1b9fda146a0be613c2a501b83d3cf
+size 552

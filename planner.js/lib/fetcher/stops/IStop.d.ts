@@ -1,13 +1,3 @@
-import { DurationMs } from "../../interfaces/units";
-/**
- * Interface for a Stop. This describes an actual physical stop, e.g. a train or a bus stop
- * @property id An identifier for the stop that gets used in IConnections
- * @property name Display name of the stop
- */
-export default interface IStop {
-    id: string;
-    name: string;
-    longitude: number;
-    latitude: number;
-    avgStopTimes?: DurationMs;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed203c8c3203ceed9c596616b33557ae70925792221e9c955b29a60728f26318
+size 415

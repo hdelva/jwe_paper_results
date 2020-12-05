@@ -1,15 +1,3 @@
-declare enum EventType {
-    Query = "query",
-    SubQuery = "sub-query",
-    AbortQuery = "abort-query",
-    InvalidQuery = "invalid-query",
-    LDFetchGet = "ldfetch-get",
-    Warning = "warning",
-    ConnectionPrefetch = "connection-prefetch",
-    ConnectionIteratorView = "connection-iterator-view",
-    ConnectionScan = "connection-scan",
-    FinalReachableStops = "final-reachable-stops",
-    InitialReachableStops = "initial-reachable-stops",
-    AddedNewTransferProfile = "added-new-transfer-profile"
-}
-export default EventType;
+version https://git-lfs.github.com/spec/v1
+oid sha256:25b20981b4160bc742841b13fe6f077997617688be3e7105231d0eba0c448c67
+size 537

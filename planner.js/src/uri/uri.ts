@@ -1,19 +1,3 @@
-export default class URI {
-    public static inNS(ns: string, id: string): string {
-        // this probably misses a lot of special cases
-        // but it'll do for now
-        const lastChar = ns[ns.length - 1];
-        if (lastChar === "/") {
-            return `${ns}${id}`;
-        } else if (lastChar === "#") {
-            return `${ns}${id}`;
-        } else {
-            return `${ns}#${id}`;
-        }
-    }
-
-    public static fakeExpand(ns: string, id: string): string {
-        // discards the prefix and places it the specified NS
-        return this.inNS(ns, id.substring(4));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b70b755f3591f666ae3abdd0da864e58206dea987174794d721c9f23a1bef0d5
+size 600

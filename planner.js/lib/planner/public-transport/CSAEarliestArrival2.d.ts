@@ -1,32 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import Context from "../../Context";
-import IConnectionsProvider from "../../fetcher/connections/IConnectionsProvider";
-import IPath from "../../interfaces/IPath";
-import ILocationResolver from "../../query-runner/ILocationResolver";
-import IResolvedQuery from "../../query-runner/IResolvedQuery";
-import IReachableStopsFinder from "../stops/IReachableStopsFinder";
-import IPublicTransportPlanner from "./IPublicTransportPlanner";
-export default class CSAEarliestArrival2 implements IPublicTransportPlanner {
-    private readonly connectionsProvider;
-    private readonly locationResolver;
-    private readonly transferReachableStopsFinder;
-    private readonly initialReachableStopsFinder;
-    private readonly finalReachableStopsFinder;
-    private readonly context;
-    private finalReachableStops;
-    private profilesByStop;
-    private enterConnectionByTrip;
-    private connectionsQueue;
-    private journeyExtractor;
-    constructor(connectionsProvider: IConnectionsProvider, locationResolver: ILocationResolver, transferReachableStopsFinder: IReachableStopsFinder, initialReachableStopsFinder: IReachableStopsFinder, finalReachableStopsFinder: IReachableStopsFinder, context?: Context);
-    plan(query: IResolvedQuery): Promise<AsyncIterator<IPath>>;
-    private setBounds;
-    private calculateJourneys;
-    private extractJourneys;
-    private processConnections;
-    private getProfile;
-    private updateProfile;
-    private scheduleExtraConnections;
-    private initInitialReachableStops;
-    private initFinalReachableStops;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a4d5c8adb0f0ea2a92a808a71b550d97d6482bd6ccd01c8240ccef012c9ba16
+size 1589

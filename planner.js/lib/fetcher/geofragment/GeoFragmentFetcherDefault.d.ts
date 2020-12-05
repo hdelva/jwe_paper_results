@@ -1,14 +1,3 @@
-import LDFetch from "ldfetch";
-import { LDLoader } from "../../loader/ldloader";
-import { ThingView } from "../../loader/views/single";
-import GeoFragment from "../../entities/geofragment/geofragment";
-import IGeoFragmentFetcher from "./IGeoFragmentFetcher";
-import GeoFragmentTree from "../../entities/geofragment/geotree";
-export default class GeoFragmentFetcherDefault implements IGeoFragmentFetcher {
-    protected ldFetch: LDFetch;
-    protected ldLoader: LDLoader;
-    constructor(ldFetch: LDFetch);
-    get(url: string): Promise<GeoFragmentTree>;
-    protected getView(): ThingView<GeoFragmentTree>;
-    protected getFragmentView(): ThingView<GeoFragment>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6e19416153aab15f508d8d93673c7845b5f2ecf63fbfe92448dd229b4146b07
+size 666

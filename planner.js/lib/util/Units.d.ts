@@ -1,12 +1,3 @@
-import { DistanceM, DurationMs, SpeedKmH } from "../interfaces/units";
-/**
- * Utility class with calculation functions dealing with [[DistanceM]], [[DurationMs]] and [[SpeedKmH]]
- */
-export default class Units {
-    static toSpeed(distance: DistanceM, duration: DurationMs): SpeedKmH;
-    static toDistance(duration: DurationMs, speed: SpeedKmH): DistanceM;
-    static toDuration(distance: DistanceM, speed: SpeedKmH): DurationMs;
-    static fromHours(hours: number): DurationMs;
-    static fromMinutes(minutes: number): DurationMs;
-    static fromSeconds(seconds: number): DurationMs;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:11ee22d21b8e558e446aa983862146f1d2b9039481ffbfbf54fc32fef4f315ff
+size 588

@@ -1,10 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import IConnection from "../../../entities/connections/connections";
-export default class FootpathQueue extends AsyncIterator<IConnection> {
-    private buffer;
-    private shouldClose;
-    constructor(backwards?: boolean);
-    read(): IConnection;
-    write(item: IConnection): void;
-    closeAfterFlush(): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dea3e827ad91e81c117159864fd8f8c4aa2ca057c6462ca7799d3c0d502fefd0
+size 363

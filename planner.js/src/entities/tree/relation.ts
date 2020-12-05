@@ -1,20 +1,3 @@
-import GeometryValue from "./geometry";
-
-enum RelationTypes {
-    GEOSPATIALLYC_CONTAINS = "https://w3id.org/tree#GeospatiallyContainsRelation",
-}
-
-export default class HypermediaTreeRelation {
-    public static create(id?: string) {
-        return new HypermediaTreeRelation(id);
-    }
-
-    public id?: string;
-    public type: RelationTypes;
-    public geoValue: GeometryValue;
-    public node: string;
-
-    constructor(id?: string) {
-        this.id = id;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:77825fb4b16594a80b4acee61b529b7d9042a5c50c1f4e22998cd739ca2f1b9e
+size 467

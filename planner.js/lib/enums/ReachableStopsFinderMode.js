@@ -1,9 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var ReachableStopsFinderMode;
-(function (ReachableStopsFinderMode) {
-    ReachableStopsFinderMode["Source"] = "source";
-    ReachableStopsFinderMode["Target"] = "target";
-})(ReachableStopsFinderMode || (ReachableStopsFinderMode = {}));
-exports.default = ReachableStopsFinderMode;
-//# sourceMappingURL=ReachableStopsFinderMode.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fcccb431080fa45b219ada3bfe752b726e3f89c7c6f9f4fdd7bbada1a20bff7
+size 409

@@ -1,9 +1,3 @@
-import LDFetch from "ldfetch";
-import { RoutableTile } from "../../entities/tiles/tile";
-import PathfinderProvider from "../../pathfinding/PathfinderProvider";
-import RoutableTileFetcherDefault from "./RoutableTileFetcherDefault";
-export default class RoutableTileFetcherExtended extends RoutableTileFetcherDefault {
-    constructor(ldFetch: LDFetch, pathfinder: PathfinderProvider);
-    get(url: string): Promise<RoutableTile>;
-    protected getWaysView(): import("../../loader/views").IndexThingView<import("../../entities/tiles/way").RoutableTileWay>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fec789d093611158ae2103226365c56410853ba9c1a239a52ccf9fbb662073cf
+size 557

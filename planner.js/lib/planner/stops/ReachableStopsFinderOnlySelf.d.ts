@@ -1,12 +1,3 @@
-import ReachableStopsFinderMode from "../../enums/ReachableStopsFinderMode";
-import IStop from "../../fetcher/stops/IStop";
-import { DurationMs, SpeedKmH } from "../../interfaces/units";
-import IReachableStopsFinder, { IReachableStop } from "./IReachableStopsFinder";
-/**
- * This [[IReachableStopsFinder]] just returns the passed source or target stop.
- *
- * This can be a valid strategy to optimize speed if the user doesn't want to travel by foot to another stop
- */
-export default class ReachableStopsFinderOnlySelf implements IReachableStopsFinder {
-    findReachableStops(sourceOrTargetStop: IStop, mode: ReachableStopsFinderMode, maximumDuration: DurationMs, minimumSpeed: SpeedKmH): Promise<IReachableStop[]>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf01f5f28864d0242e66c908bc3f5d8e7fccfff244dba9cb7f11f84aa2f20c0e
+size 719

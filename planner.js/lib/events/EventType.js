@@ -1,25 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var EventType;
-(function (EventType) {
-    EventType["Query"] = "query";
-    EventType["SubQuery"] = "sub-query";
-    EventType["AbortQuery"] = "abort-query";
-    EventType["InvalidQuery"] = "invalid-query";
-    EventType["Warning"] = "warning";
-    EventType["ConnectionPrefetch"] = "connection-prefetch";
-    EventType["ConnectionIteratorView"] = "connection-iterator-view";
-    EventType["ConnectionScan"] = "connection-scan";
-    EventType["FinalReachableStops"] = "final-reachable-stops";
-    EventType["InitialReachableStops"] = "initial-reachable-stops";
-    EventType["AddedNewTransferProfile"] = "added-new-transfer-profile";
-    EventType["ReachableLocation"] = "ReachableLocation";
-    EventType["ReachableID"] = "ReachableID";
-    EventType["ReachableTile"] = "ReachableTile";
-    EventType["ReachableTransfer"] = "ReachableTransfer";
-    EventType["ResourceFetch"] = "ResourceFetch";
-    EventType["ZoiZone"] = "ZoiZone";
-    EventType["Partition"] = "Partition";
-})(EventType || (EventType = {}));
-exports.default = EventType;
-//# sourceMappingURL=EventType.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2a9a50accad07060f89f236e1f26948352dd9aba2d6b6f0817cdd8e2ee1ce25
+size 1155

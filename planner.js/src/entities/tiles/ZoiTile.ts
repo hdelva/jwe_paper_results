@@ -1,21 +1,3 @@
-import TileCoordinate from "./TileCoordinate";
-import { ZoiZone } from "./ZoiZone";
-
-export class ZoiTile {
-    public id: string;
-    public coordinate?: TileCoordinate;
-    protected zones: ZoiZone[];
-
-    constructor(id: string, zones: ZoiZone[]) {
-        this.id = id;
-        this.zones = zones;
-    }
-
-    public getZones() {
-        return this.zones;
-    }
-}
-
-export interface IZoiTileIndex {
-    [id: string]: Promise<ZoiTile>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f98f382b41eb8f6c4eb177db4f9d73c4c7b656b92c54f4579da983293793e692
+size 440

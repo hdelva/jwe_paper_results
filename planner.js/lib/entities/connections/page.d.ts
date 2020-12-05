@@ -1,16 +1,3 @@
-import IConnection from "./connections";
-export declare class LinkedConnectionsPage {
-    id: string;
-    private previousPageId;
-    private nextPageId;
-    private connections;
-    constructor(id: string, connections: IConnection[], previousPageId: string, nextPageId: string);
-    getConnections(): IConnection[];
-    getPreviousPageId(): string;
-    getNextPageId(): string;
-    getLowerBound(): Date;
-    getUpperBound(): Date;
-}
-export interface ILinkedConnectionsPageIndex {
-    [id: string]: Promise<LinkedConnectionsPage>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bef0782bbe9e7b5c61a8a30b3c82d64d647fa380b6e99f6ec072eaa08ca1107f
+size 534

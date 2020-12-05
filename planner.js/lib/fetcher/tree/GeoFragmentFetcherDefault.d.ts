@@ -1,16 +1,3 @@
-import LDFetch from "ldfetch";
-import { LDLoader } from "../../loader/ldloader";
-import { ThingView } from "../../loader/views/single";
-import GeoFragment from "../../entities/tree/geometry";
-import HypermediaTree from "../../entities/tree/tree";
-import IHypermediaTreeFetcher from "./IHypermediaTreeFetcher";
-import HypermediaTreeRelation from "../../entities/tree/relation";
-export default class HypermediaTreeFetcherDefault implements IHypermediaTreeFetcher {
-    protected ldFetch: LDFetch;
-    protected ldLoader: LDLoader;
-    constructor(ldFetch: LDFetch);
-    get(url: string): Promise<HypermediaTree>;
-    protected getView(): ThingView<HypermediaTree>;
-    protected getRelationView(): ThingView<HypermediaTreeRelation>;
-    protected getFragmentView(): ThingView<GeoFragment>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:66338fdb7422b629184ffe5bfbe160aa0bcb07ad4bb5f4a349f5a3faf5e6a58a
+size 790

@@ -1,11 +1,3 @@
-import { injectable } from "inversify";
-import PathfindingGraph from "../graph";
-import { IShortestPathAlgorithm, IShortestPathInstance } from "../pathfinder";
-import { DijkstraInstance } from "./DijkstraInstance";
-
-@injectable()
-export class Dijkstra implements IShortestPathAlgorithm {
-    public createInstance(graph: PathfindingGraph): IShortestPathInstance {
-        return new DijkstraInstance(graph);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:874cef38c341d4028bd82c60ad328a3536e6c00e8cb854d3933b71d4860bd6d2
+size 416

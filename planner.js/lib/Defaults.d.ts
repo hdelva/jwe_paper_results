@@ -1,11 +1,3 @@
-/**
- * This class holds the default [[IQuery]]/[[IResolvedQuery]] parameters
- */
-export default class Defaults {
-    static readonly defaultMinimumWalkingSpeed = 3;
-    static readonly defaultMaximumWalkingSpeed = 6;
-    static readonly defaultWalkingDuration: number;
-    static readonly defaultMinimumTransferDuration: number;
-    static readonly defaultMaximumTransferDuration: number;
-    static readonly defaultMaximumTransfers = 4;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f125df345b59fee1232305964d24215c61f46f62083a151eedb84639ccccf469
+size 440

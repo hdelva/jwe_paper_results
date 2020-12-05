@@ -1,15 +1,3 @@
-import ILocation from "./ILocation";
-import IProbabilisticValue from "./IProbabilisticValue";
-import { DistanceM, DurationMs } from "./units";
-
-export default interface IStep {
-  startLocation: ILocation;
-  stopLocation: ILocation;
-  through?: string;
-  startTime?: Date;
-  stopTime?: Date;
-  duration: IProbabilisticValue<DurationMs>;
-  distance?: DistanceM;
-  enterConnectionId?: string;
-  exitConnectionId?: string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:15627c57781954c747bba2c6c349cf9a2b2c2ecd96e96d64aff6465d0657d335
+size 421

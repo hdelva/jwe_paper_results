@@ -1,10 +1,3 @@
-/**
- * Stores an arrival time in milliseconds and the corresponding trip ID
- * for a maximum amount of transfers that can be made.
- */
-export default interface IArrivalTimeByTransfers extends Array<{arrivalTime: number, tripId?: string}> {
-  [amountOfTransfers: number]: {
-    arrivalTime: number,
-    tripId?: string,
-  };
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c89729255f6c6f49a765695298379ff247538995ca234f2eb5e729e58fd3908
+size 326

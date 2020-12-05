@@ -1,18 +1,3 @@
-module.exports = {
-  "roots": [
-    "<rootDir>/src"
-  ],
-  "transform": {
-    "^.+\\.tsx?$": "ts-jest"
-  },
-  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
-  "moduleFileExtensions": [
-    "ts",
-    "tsx",
-    "js",
-    "jsx",
-    "json",
-    "node"
-  ],
-  "setupFilesAfterEnv": ["<rootDir>/setup-jest.js"]
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:569e18835ba051b21b1f904e6aaa5ef28e8f3bf9cda6bfe07777617b266cbf8e
+size 322

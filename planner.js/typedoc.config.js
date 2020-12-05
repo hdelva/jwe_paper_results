@@ -1,17 +1,3 @@
-module.exports = {
-  out: 'docs/code',
-  includes: 'src/',
-  exclude: [
-    '**/*+(test).ts',
-    '**/src/demo.*',
-    '**/src/inversify.config.ts',
-    '**/src/test/*',
-    '**/fetcher/connections/tests/**/*',
-  ],
-  mode: 'file',
-  excludePrivate: true,
-  excludeNotExported: false,
-  excludeExternals: true,
-  includeDeclarations: true,
-  theme: 'minimal',
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfdcd99012e4320de3449d753ae88e62177d80c82f273aeed7f579a10fb1ac37
+size 363

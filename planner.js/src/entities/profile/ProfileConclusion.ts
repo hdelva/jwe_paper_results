@@ -1,25 +1,3 @@
-import { IEntity } from "../../loader/common";
-import ProfileValueReference from "./ProfileValueReference";
-
-export default class ProfileConclusion implements IEntity {
-    public static create(id: string): ProfileConclusion {
-        return new ProfileConclusion(id);
-    }
-
-    public id: string;
-    public hasAccess?: boolean;
-    public isOneway?: boolean;
-    public isReversed?: boolean;
-    public speed?: number | ProfileValueReference;
-    public isObstacle?: boolean;
-    public priority?: number;
-    public obstacleTime?: number;
-
-    constructor(id: string) {
-        this.id = id;
-    }
-
-    public getID(): string {
-        return this.id;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:26c7764f79b62dee7a0c72200085aef6f2d9772a942dc151dba925902a2c7fac
+size 664

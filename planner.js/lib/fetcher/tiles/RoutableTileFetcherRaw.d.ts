@@ -1,15 +1,3 @@
-import { RoutableTile } from "../../entities/tiles/RoutableTile";
-import { IRoutableTileNodeIndex } from "../../entities/tiles/RoutableTileNode";
-import RoutableTileRegistry from "../../entities/tiles/RoutableTileRegistry";
-import { IRoutableTileWayIndex } from "../../entities/tiles/RoutableTileWay";
-import IRoutableTileFetcher from "./IRoutableTileFetcher";
-export default class RoutableTileFetcherRaw implements IRoutableTileFetcher {
-    protected mapping: object;
-    protected routableTileRegistry: RoutableTileRegistry;
-    constructor();
-    get(url: string): Promise<RoutableTile>;
-    protected parseResponseLength(response: any): number;
-    protected processTileData(url: string, nodes: IRoutableTileNodeIndex, ways: IRoutableTileWayIndex): RoutableTile;
-    private createNode;
-    private createWay;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a66865b8be4ff978a8e081f770569138a75455da1b498d6d490ab726f4ce983
+size 817

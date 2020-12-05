@@ -1,17 +1,3 @@
-import { Triple } from "rdf-js";
-import UriTemplate from "uritemplate";
-import IHydraPage from "./IHydraPage";
-/**
- * Searches the given array of triples for hydra meta data, like the search template and next/previous page iris
- * Also allows getting the contained [[IHydraPage]], which holds an array of [[IConnection]]s
- */
-export default class HydraPageParser {
-    private readonly triples;
-    private readonly documentIri;
-    constructor(triples: Triple[]);
-    getPage(index: number): IHydraPage;
-    getSearchTemplate(): UriTemplate;
-    getNextPageIri(): string;
-    getPreviousPageIri(): string;
-    private getDocumentIri;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d83ff5735a93b4e0fe939922b3dbee9a2caf40c5995273b3e2b6c0c6ac782dd
+size 637

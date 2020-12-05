@@ -1,1 +1,3 @@
-{"version":3,"file":"catalog.delijn.vlaenderen.js","sourceRoot":"","sources":["../src/catalog.delijn.vlaenderen.ts"],"names":[],"mappings":";;;;;AAAA,wDAAgC;AAChC,oEAA4C;AAE5C,oCAAoC;AAEpC,MAAM,aAAa,GAAG,IAAI,iBAAO,EAAE,CAAC;AAEpC,aAAa,CAAC,cAAc,CAAC,0DAA0D,CAAC,CAAC;AACzF,aAAa,CAAC,cAAc,CAAC,wDAAwD,CAAC,CAAC;AACvF,aAAa,CAAC,cAAc,CAAC,gEAAgE,CAAC,CAAC;AAC/F,aAAa,CAAC,cAAc,CAAC,+DAA+D,CAAC,CAAC;AAC9F,aAAa,CAAC,cAAc,CAAC,gEAAgE,CAAC,CAAC;AAE/F,aAAa,CAAC,oBAAoB,CAAC,sEAAsE,EAAE,oBAAU,CAAC,GAAG,CAAC,CAAC;AAC3H,aAAa,CAAC,oBAAoB,CAAC,sEAAsE,EAAE,oBAAU,CAAC,GAAG,CAAC,CAAC;AAE3H,kBAAe,aAAa,CAAC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3fa62ea4dc697a35f54249743e48fdd5c3669ba56caaaab9a967739f5f1cd4de
+size 595

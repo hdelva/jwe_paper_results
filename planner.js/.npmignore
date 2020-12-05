@@ -1,7 +1,3 @@
-node_modules/*
-.idea/*
-bundle.js
-bundle.js.map
-stats.json
-docs/*
-examples
+version https://git-lfs.github.com/spec/v1
+oid sha256:06f1cc4724773185b7fd63be49f4e863e0e6a5222ae6ef32ec428588077156ac
+size 74

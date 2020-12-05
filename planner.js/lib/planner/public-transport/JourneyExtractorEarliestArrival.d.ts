@@ -1,11 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import IPath from "../../interfaces/IPath";
-import ILocationResolver from "../../query-runner/ILocationResolver";
-import IResolvedQuery from "../../query-runner/IResolvedQuery";
-import IProfileByStop from "./CSA/data-structure/stops/IProfileByStop";
-import IJourneyExtractor from "./IJourneyExtractor";
-export default class JourneyExtractorEarliestArrival implements IJourneyExtractor {
-    private readonly locationResolver;
-    constructor(locationResolver: ILocationResolver);
-    extractJourneys(profilesByStop: IProfileByStop, query: IResolvedQuery): Promise<AsyncIterator<IPath>>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:988fe9c49d29e11da05f4fd326d53a96a6f37d5c6d0f605604955ae6d4bcaf53
+size 636

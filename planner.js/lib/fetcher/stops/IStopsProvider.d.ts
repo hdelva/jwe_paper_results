@@ -1,15 +1,3 @@
-import { IStopsSourceConfig } from "../../Catalog";
-import IStop from "./IStop";
-/**
- * Acts as transparent proxy to [[IStopsFetcher]] instances by choosing
- * the right [[IStopsFetcher]] to pass the request to
- * @method getStopById Returns the [[IStop]] for the given stopId
- * @method getAllStops Returns concatenated array of [[IStop]]s from all [[IStopsFetcher]]s it mediates
- */
-export default interface IStopsProvider {
-    prefetchStops(): any;
-    addStopSource(source: IStopsSourceConfig): any;
-    getSources(): IStopsSourceConfig[];
-    getStopById(stopId: string): Promise<IStop>;
-    getAllStops(): Promise<IStop[]>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5c6b3311dd6e1b896b8b858d12aa748c8f08fbcc306f5d1701f41a357e268fa
+size 633

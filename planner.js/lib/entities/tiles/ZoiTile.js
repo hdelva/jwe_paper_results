@@ -1,14 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.ZoiTile = void 0;
-class ZoiTile {
-    constructor(id, zones) {
-        this.id = id;
-        this.zones = zones;
-    }
-    getZones() {
-        return this.zones;
-    }
-}
-exports.ZoiTile = ZoiTile;
-//# sourceMappingURL=ZoiTile.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6d5ce42afde7dc53cd5a00c72a6da21a3466e4628d3fdb4e48c973e9df6e9ee
+size 318

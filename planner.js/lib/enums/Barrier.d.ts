@@ -1,19 +1,3 @@
-declare enum Barrier {
-    Block = "https://w3id.org/openstreetmap/terms#Block",
-    Bollard = "https://w3id.org/openstreetmap/terms#Bollard",
-    BorderControl = "https://w3id.org/openstreetmap/terms#BorderControl",
-    BumpGate = "https://w3id.org/openstreetmap/terms#BumpGate",
-    BusTrap = "https://w3id.org/openstreetmap/terms#BusTrap",
-    CattleGrid = "https://w3id.org/openstreetmap/terms#CattleGrid",
-    Chain = "https://w3id.org/openstreetmap/terms#Chain",
-    CycleBarrier = "https://w3id.org/openstreetmap/terms#CycleBarrier",
-    Debris = "https://w3id.org/openstreetmap/terms#Debris",
-    Entrance = "https://w3id.org/openstreetmap/terms#Entrance",
-    Gate = "https://w3id.org/openstreetmap/terms#Gate",
-    LiftGate = "https://w3id.org/openstreetmap/terms#LiftGate",
-    SallyPort = "https://w3id.org/openstreetmap/terms#SallyPort",
-    SwingGate = "https://w3id.org/openstreetmap/terms#SwingGate",
-    TollBooth = "https://w3id.org/openstreetmap/terms#TollBooth",
-    Turnstile = "https://w3id.org/openstreetmap/terms#Turnstile"
-}
-export default Barrier;
+version https://git-lfs.github.com/spec/v1
+oid sha256:48732e970575e34000fa261707024cd2dc3925c7fdfbe31f5a043b12acef8ac6
+size 1074

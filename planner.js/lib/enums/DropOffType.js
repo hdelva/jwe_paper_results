@@ -1,11 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var DropOffType;
-(function (DropOffType) {
-    DropOffType["Regular"] = "http://vocab.gtfs.org/terms#Regular";
-    DropOffType["NotAvailable"] = "http://vocab.gtfs.org/terms#NotAvailable";
-    DropOffType["MustPhone"] = "http://vocab.gtfs.org/terms#MustPhone";
-    DropOffType["MustCoordinateWithDriver"] = "http://vocab.gtfs.org/terms#MustCoordinateWithDriver";
-})(DropOffType || (DropOffType = {}));
-exports.default = DropOffType;
-//# sourceMappingURL=DropOffType.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:74566b8d47bd452ae7a3691362e1dc034325b72163426ec18b34d73ce49adeb6
+size 549

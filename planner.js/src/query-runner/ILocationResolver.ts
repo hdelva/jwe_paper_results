@@ -1,9 +1,3 @@
-import IStop from "../fetcher/stops/IStop";
-import ILocation from "../interfaces/ILocation";
-
-/**
- * A location resolver turns an [[ILocation]], [[IStop]] or a string into an [[ILocation]]
- */
-export default interface ILocationResolver {
-  resolve: (location: ILocation | IStop | string) => Promise<ILocation>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9af2285763987a1caa9206183ca3b1c472362af5d64f51f72ba6b13200f7a453
+size 313

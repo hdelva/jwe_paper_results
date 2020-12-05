@@ -1,15 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-/**
- * An AsyncIterator that emits a range of items from a source array.
- *
- * Accepts a start and stop index and a step of +1 or -1
- */
-export default class ArrayViewIterator<T> extends AsyncIterator<T> {
-    private readonly source;
-    private readonly startIndex;
-    private readonly stopIndex;
-    private readonly step;
-    private currentIndex;
-    constructor(source: T[], startIndex: number, stopIndex: number, step: -1 | 1);
-    read(): T;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:425bf930c762cb33d919f7ff24e54015eedbaa0780f1bd844c8b8ac4fa75e590
+size 500

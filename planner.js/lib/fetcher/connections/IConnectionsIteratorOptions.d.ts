@@ -1,13 +1,3 @@
-import GeometryValue from "../../entities/tree/geometry";
-import TravelMode from "../../enums/TravelMode";
-/**
- * Options passed to [[IConnectionsProvider]] and [[IConnectionsFetcher]] instances
- * for creating AsyncIterators of [[IConnection]] instances.
- */
-export default interface IConnectionsIteratorOptions {
-    upperBoundDate?: Date;
-    lowerBoundDate?: Date;
-    backward?: boolean;
-    excludedModes?: Set<TravelMode>;
-    region: GeometryValue;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e92697d5b788392d2bcd30ff544434d073d3643d4a7ec188f448f7ea937f37bc
+size 459

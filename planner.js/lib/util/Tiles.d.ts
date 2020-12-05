@@ -1,4 +1,3 @@
-import TileCoordinate from "../entities/tiles/TileCoordinate";
-export declare function lat_to_tile(lat: number, zoom: number): number;
-export declare function long_to_tile(lon: number, zoom: number): number;
-export declare function toTileCoordinate(lat: number, long: number, zoom?: number): TileCoordinate;
+version https://git-lfs.github.com/spec/v1
+oid sha256:195abe2dae017b17c745ab103b6aede3acce4316c6abc1de017ac2968d8d9d6f
+size 308

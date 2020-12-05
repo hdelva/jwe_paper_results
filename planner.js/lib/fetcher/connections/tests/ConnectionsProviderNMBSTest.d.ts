@@ -1,18 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import { IConnectionsSourceConfig } from "../../../Catalog";
-import IConnection from "../../../entities/connections/connections";
-import { LinkedConnectionsPage } from "../../../entities/connections/page";
-import IConnectionsIteratorOptions from "../IConnectionsIteratorOptions";
-import IConnectionsProvider from "../IConnectionsProvider";
-export default class ConnectionsProviderNMBSTest implements IConnectionsProvider {
-    private connections;
-    private s;
-    constructor(connections: Array<IteratorResult<IConnection>>);
-    getSources(): IConnectionsSourceConfig[];
-    appendIterator(options: IConnectionsIteratorOptions, existingIterator: AsyncIterator<IConnection>): Promise<AsyncIterator<IConnection>>;
-    addConnectionSource(source: IConnectionsSourceConfig): void;
-    getByUrl(url: string): Promise<LinkedConnectionsPage>;
-    getByTime(date: Date): Promise<LinkedConnectionsPage>;
-    prefetchConnections(): void;
-    createIterator(options: IConnectionsIteratorOptions): Promise<AsyncIterator<IConnection>>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3fc12727e0e836aa4b0ed347aeb66c8748cf91b342e5e98a276efdaed163310c
+size 1076

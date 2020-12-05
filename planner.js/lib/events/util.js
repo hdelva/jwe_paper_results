@@ -1,12 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const inversify_config_1 = __importDefault(require("../inversify.config"));
-const types_1 = __importDefault(require("../types"));
-function getEventBus() {
-    return inversify_config_1.default.get(types_1.default.EventBus);
-}
-exports.default = getEventBus;
-//# sourceMappingURL=util.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:477d7bd9700a83ec50f28c1d20336a4e8fca3139d0f33a9a1c6533fc66bc9412
+size 505

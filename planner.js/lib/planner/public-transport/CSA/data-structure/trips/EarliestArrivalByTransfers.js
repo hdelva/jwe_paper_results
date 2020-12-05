@@ -1,34 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-/**
- * A factory that create's an [[IEarliestArrival]] for each amount of maximum transfers that can be made.
- *
- * @implements [[IEarliestArrivalByTransfers]]
- */
-class EarliestArrivalByTransfers extends Array {
-    static create(amountOfTransfers) {
-        return new EarliestArrivalByTransfers(amountOfTransfers);
-    }
-    static createByConnection(currentArrivalTimeByTransfers, connection, arrivalTimeByTransfers) {
-        return currentArrivalTimeByTransfers.map((earliestArrival, transfer) => {
-            if (arrivalTimeByTransfers[transfer].arrivalTime < earliestArrival.arrivalTime) {
-                return {
-                    connection,
-                    arrivalTime: arrivalTimeByTransfers[transfer].arrivalTime,
-                };
-            }
-            return earliestArrival;
-        });
-    }
-    constructor(maximumTransfers) {
-        super();
-        for (let amountOfTransfers = 0; amountOfTransfers < maximumTransfers + 1; amountOfTransfers++) {
-            this[amountOfTransfers] = {
-                arrivalTime: Infinity,
-                connection: undefined,
-            };
-        }
-    }
-}
-exports.default = EarliestArrivalByTransfers;
-//# sourceMappingURL=EarliestArrivalByTransfers.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecd9172aee332fafab2a38ab4287a83e123337c476b42781f06afad120d41342
+size 1308

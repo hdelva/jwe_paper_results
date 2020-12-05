@@ -1,16 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.IndexThingViewResult = void 0;
-class IndexThingViewResult {
-    constructor() {
-        this.contents = {};
-    }
-    addEntity(entity) {
-        this.contents[entity.id] = entity;
-    }
-    getContents() {
-        return this.contents;
-    }
-}
-exports.IndexThingViewResult = IndexThingViewResult;
-//# sourceMappingURL=index.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:755ab92a949e6fd569896bba2f85b39db9331bc387277544d3b127fa3c30b84d
+size 416

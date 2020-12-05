@@ -1,25 +1,3 @@
-import { ArrayIterator } from "asynciterator";
-import "jest";
-import FilterUniqueIterator from "./FilterUniqueIterator";
-
-describe("[FilterUniqueIterator]", () => {
-
-  it("basic", (done) => {
-
-    const numberIterator = new ArrayIterator<number>([1, 1, 2, 3, 4, 5, 5, 5, 5, 6, 1, 5, 3, 5, 8]);
-    const filterUniqueIterator = new FilterUniqueIterator<number>(
-      numberIterator,
-      (a, b) => a === b,
-    );
-
-    let current = 0;
-    const expected = [1, 2, 3, 4, 5, 6, 8];
-
-    filterUniqueIterator.each((str: number) => {
-      expect(expected[current++]).toBe(str);
-    });
-
-    filterUniqueIterator.on("end", () => done());
-  });
-
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:86a3f64b7756fb9852f82bee0a84179fdc23a027c1c0847d9047071dbe48e8a3
+size 646

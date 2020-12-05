@@ -1,19 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-/**
- * Utility class with functions to operate on AsyncIterator instances
- */
-export default class Iterators {
-    /**
-     * Returns an array representation of an AsyncIterator.
-     * Assumes the iterator will end sometime
-     */
-    static toArray<T>(iterator: AsyncIterator<T>): Promise<T[]>;
-    /**
-     * Returns the first element of an AsyncIterator.
-     */
-    static getFirst<T>(iterator: AsyncIterator<T>): Promise<T>;
-    /**
-     * Iterates over elements of an AsyncIterator, returning the first element ´predicate´ returns truthy for.
-     */
-    static find<T>(iterator: AsyncIterator<T>, predicate: (element: T) => boolean): Promise<T>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5a8f7d5e4e5a6232fca0c89f5a966ed713b34bc7e5e6a31da45c21723ebd9d4
+size 706

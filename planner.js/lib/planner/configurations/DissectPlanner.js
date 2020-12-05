@@ -1,21 +1,3 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const dissect_1 = __importDefault(require("../../configs/dissect"));
-const TravelMode_1 = __importDefault(require("../../enums/TravelMode"));
-const Planner_1 = __importDefault(require("./Planner"));
-class DissectPlanner extends Planner_1.default {
-    constructor() {
-        super(dissect_1.default);
-        this.addConnectionSource("https://graph.irail.be/sncb/connections", TravelMode_1.default.Train);
-        this.addConnectionSource("https://openplanner.ilabt.imec.be/delijn/Oost-Vlaanderen/connections", TravelMode_1.default.Bus);
-        this.addConnectionSource("https://openplanner.ilabt.imec.be/mivb/connections", TravelMode_1.default.Bus);
-        this.addStopSource("https://irail.be/stations/NMBS");
-        this.addStopSource("https://openplanner.ilabt.imec.be/delijn/Oost-Vlaanderen/stops");
-        this.addStopSource("https://openplanner.ilabt.imec.be/mivb/stops");
-    }
-}
-exports.default = DissectPlanner;
-//# sourceMappingURL=DissectPlanner.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:8466897b536ad5e71944f09355d192bbc348619122ebc69e46b365a82c65f084
+size 1185

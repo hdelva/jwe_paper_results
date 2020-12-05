@@ -1,6 +1,3 @@
-import ILocationResolver from "../../query-runner/ILocationResolver";
-import PathfindingGraph from "../graph";
-import { IShortestPathAlgorithm, IShortestPathInstance } from "../pathfinder";
-export default class MixedDijkstra implements IShortestPathAlgorithm {
-    createInstance(graph: PathfindingGraph, locationResolver: ILocationResolver): IShortestPathInstance;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1251f0732d81857c2ec426ed0d62b32636b1f0a9928049dc3af3c294fbd000c1
+size 368

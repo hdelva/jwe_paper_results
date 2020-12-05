@@ -1,23 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import IProfileProvider from "../../fetcher/profiles/IProfileProvider";
-import IRoutableTileProvider from "../../fetcher/tiles/IRoutableTileProvider";
-import IPath from "../../interfaces/IPath";
-import PathfinderProvider from "../../pathfinding/PathfinderProvider";
-import ILocationResolver from "../../query-runner/ILocationResolver";
-import IResolvedQuery from "../../query-runner/IResolvedQuery";
-import IRoadPlanner from "./IRoadPlanner";
-export default class RoadPlannerPathfinding implements IRoadPlanner {
-    private tileProvider;
-    private pathfinderProvider;
-    private profileProvider;
-    private locationResolver;
-    private registry;
-    private eventBus;
-    private reachedTiles;
-    constructor(tileProvider: IRoutableTileProvider, pathfinderProvider: PathfinderProvider, profileProvider: IProfileProvider, locationResolver: ILocationResolver);
-    plan(query: IResolvedQuery): Promise<AsyncIterator<IPath>>;
-    private getPathBetweenLocations;
-    private _innerPath;
-    private fetchTile;
-    private embedLocation;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5accd0f75e766e67df3565c07aef515fe54df3ba974362407fbf4c4c3eb76744
+size 1090

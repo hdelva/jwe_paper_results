@@ -1,15 +1,3 @@
-import ILocation from "../../interfaces/ILocation";
-import TileCoordinate from "./TileCoordinate";
-export declare class RoutableTile {
-    id: string;
-    coordinate?: TileCoordinate;
-    protected nodes: Set<string>;
-    protected ways: Set<string>;
-    constructor(id: string, nodes: Set<string>, ways: Set<string>);
-    getWays(): Set<string>;
-    getNodes(): Set<string>;
-    contains(location: ILocation): boolean;
-}
-export interface IRoutableTileIndex {
-    [id: string]: Promise<RoutableTile>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fc4accc23f07ef6fee83d1b0fcb5902bfcfebb1d8b82af329685a212f57aac2
+size 503

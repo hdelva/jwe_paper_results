@@ -1,19 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import IPath from "../interfaces/IPath";
-import IQuery from "../interfaces/IQuery";
-import IPublicTransportPlanner from "../planner/public-transport/IPublicTransportPlanner";
-import IRoadPlanner from "../planner/road/IRoadPlanner";
-import ILocationResolver from "./ILocationResolver";
-import IQueryRunner from "./IQueryRunner";
-/**
- * The default `minimumDepartureTime` is *now*. The default `maximumArrivalTime` is `minimumDepartureTime + 2 hours`.
- */
-export default class QueryRunnerDefault implements IQueryRunner {
-    private locationResolver;
-    private publicTransportPlanner;
-    private roadPlanner;
-    constructor(locationResolver: ILocationResolver, publicTransportPlanner: IPublicTransportPlanner, roadPlanner: IRoadPlanner);
-    run(query: IQuery): Promise<AsyncIterator<IPath>>;
-    private resolveEndpoint;
-    private resolveQuery;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b75e621cb3c74b133c5056b1f7a6a503ec06173218a4ad21f127da9f5345f352
+size 900

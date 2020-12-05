@@ -1,14 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-/**
- * An AsyncIterator that allows "writing" items to it externally
- *
- * It uses a buffer internally, so items can be written synchronously and asynchronously
- */
-export default class ExpandingIterator<T> extends AsyncIterator<T> {
-    private buffer;
-    private shouldClose;
-    constructor();
-    read(): T;
-    write(item: T): void;
-    closeAfterFlush(): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bbd7630e2d713076f0a5a6cfc96c60d96b19f36ceceb7540995a572fba7f021
+size 417

@@ -1,13 +1,3 @@
-import ILocationResolver from "../../query-runner/ILocationResolver";
-import PathfindingGraph from "../graph";
-import { IShortestPathInstance } from "../pathfinder";
-export declare class MixedDijkstraInstance implements IShortestPathInstance {
-    private bidir;
-    private classic;
-    private locationResolver;
-    constructor(graph: PathfindingGraph, locationResolver: ILocationResolver);
-    setUseWeightedCost(useWeightedCost: boolean): void;
-    setBreakPoint(on: string, callback: (on: string) => Promise<void>): void;
-    removeBreakPoint(on: string): void;
-    queryPath(from: string, to: string, maxDistance?: number): Promise<any[]>;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:16ca7f3c597739471c96b3708871523707cad7aee14cbed281876cf3e8e56025
+size 648

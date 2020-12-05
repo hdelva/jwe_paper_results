@@ -1,31 +1,3 @@
-import DropOffType from "../../enums/DropOffType";
-import PickupType from "../../enums/PickupType";
-import TravelMode from "../../enums/TravelMode";
-import { DurationMs } from "../../interfaces/units";
-/**
- * Interface for a Connection. This describes an actual transport vehicle going from its
- * departureStop to its arrivalStop at a certain departureTime, arriving at the arrivalTime.
- * The arrivalTime and departureTime already include the delay and are the actual real-time values
- * for the actual arrival and departureTime.
- * The arrivalDelay and departureDelay then again contain the duration in which these times deviate
- * from the planned time.
- * @property "tripId" (optional) an identifier for the trip this vehicle is making with this connection
- * @property nextConnection (optional) an identifier for the next connection the vehicle is going to make
- * @property TravelMode The type of vehicle that is used, chosen from an enum [[TravelMode]]
- */
-export default interface IConnection {
-    id: string;
-    travelMode: TravelMode;
-    arrivalTime: Date;
-    arrivalStop: string;
-    arrivalDelay?: DurationMs;
-    departureTime: Date;
-    departureStop: string;
-    departureDelay?: DurationMs;
-    nextConnection?: string[];
-    tripId?: string;
-    "gtfs:route"?: string;
-    "gtfs:dropOffType"?: DropOffType;
-    "gtfs:pickupType"?: PickupType;
-    "gtfs:headsign"?: string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:33ce7accb93b5481f05ba39e739b2e5ba9c9c437927160c9a618a7b650a34617
+size 1397

@@ -1,15 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-import { DurationMs } from "../../interfaces/units";
-import IResolvedQuery from "../IResolvedQuery";
-/**
- * This AsyncIterator emits [[IResolvedQuery]] instances with linear increasing `maximumArrivalTime`.
- */
-export default class LinearQueryIterator extends AsyncIterator<IResolvedQuery> {
-    private readonly baseQuery;
-    private timespan;
-    private index;
-    private readonly a;
-    private readonly b;
-    constructor(baseQuery: IResolvedQuery, a: DurationMs, b: DurationMs);
-    read(): IResolvedQuery;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:008c122bd92610d791eec7b6e37bc2d6909ce7ead7798e1a386acf0dedacd8a2
+size 564

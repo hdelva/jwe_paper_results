@@ -1,26 +1,3 @@
-import dissectProfile from "../../configs/dissect";
-import TravelMode from "../../enums/TravelMode";
-import Planner from "./Planner";
-
-export default class DissectPlanner extends Planner {
-    constructor() {
-        super(dissectProfile);
-
-        this.addConnectionSource(
-            "https://graph.irail.be/sncb/connections",
-            TravelMode.Train,
-        );
-        this.addConnectionSource(
-            "https://openplanner.ilabt.imec.be/delijn/Oost-Vlaanderen/connections",
-            TravelMode.Bus,
-        );
-        this.addConnectionSource(
-            "https://openplanner.ilabt.imec.be/mivb/connections",
-            TravelMode.Bus,
-        );
-
-        this.addStopSource("https://irail.be/stations/NMBS");
-        this.addStopSource("https://openplanner.ilabt.imec.be/delijn/Oost-Vlaanderen/stops");
-        this.addStopSource("https://openplanner.ilabt.imec.be/mivb/stops");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa3adfe6425fba6a257d5395eadbddd3e9937f903acbe5d34af1b584035e1c60
+size 908

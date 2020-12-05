@@ -1,13 +1,3 @@
-import { ISemiEntity } from "../common";
-import { IThingViewResult } from "./common";
-
-export class SingleThingViewResult<T extends ISemiEntity> implements IThingViewResult<T> {
-    private contents: T;
-    public addEntity(entity: T): void {
-        this.contents = entity;
-    }
-
-    public getContents(): T {
-        return this.contents;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8262f07521ae336f2102c7d229d35ad6820ccc90ccb80fd37857e25cda9441aa
+size 350

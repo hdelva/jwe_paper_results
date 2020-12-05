@@ -1,28 +1,3 @@
-import { AsyncIterator } from "asynciterator";
-/**
- * This AsyncIterator maps every item of a query AsyncIterator to a result AsyncIterator by passing it through a
- * `run` function. All result AsyncIterator get concatenated to form the FlatMapIterator
- *
- * ```javascript
- *                  +-----+                     +-----+
- *   queryIterator  |0 & 9| +---+             + |1 & 8| +---+             + ...
- *                  +-----+     |               +-----+     |
- *                              v                           v
- *                  +-----------------------+   +-----------------------+
- * resultIterators  |01|02|04|05|06|07|08|09| + |11|12|13|14|15|16|17|18| + ...
- *                  +-----------------------+   +-----------------------+
- *
- *                  +-----------------------------------------------+
- * FlatMapIterator  |01|02|04|05|06|07|08|09|11|12|13|14|15|16|17|18| ...
- *                  +-----------------------------------------------+
- * ```
- */
-export default class FlatMapIterator<Q, R> extends AsyncIterator<R> {
-    private queryIterator;
-    private callback;
-    private currentResultIterator;
-    private isLastResultIterator;
-    constructor(queryIterator: AsyncIterator<Q>, run: (query: Q) => AsyncIterator<R>);
-    read(): R;
-    private runQuery;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0b63fd1df4f8e6be3e0d68f4ae39ac4de05402e776642d06d8bd3ab0dcf0a54
+size 1303

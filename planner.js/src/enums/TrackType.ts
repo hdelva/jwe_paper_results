@@ -1,9 +1,3 @@
-enum TrackType {
-    Grade1 = "https://w3id.org/openstreetmap/terms#Grade1",
-    Grade2 = "https://w3id.org/openstreetmap/terms#Grade2",
-    Grade3 = "https://w3id.org/openstreetmap/terms#Grade3",
-    Grade4 = "https://w3id.org/openstreetmap/terms#Grade4",
-    Grade5 = "https://w3id.org/openstreetmap/terms#Grade5",
-}
-
-export default TrackType;
+version https://git-lfs.github.com/spec/v1
+oid sha256:39aed179ab2ca099ed63f9099fa512602f49e9bb602a6b136c598d18dc3b1e1c
+size 346

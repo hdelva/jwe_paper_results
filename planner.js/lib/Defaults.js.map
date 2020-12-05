@@ -1,1 +1,3 @@
-{"version":3,"file":"Defaults.js","sourceRoot":"","sources":["../src/Defaults.ts"],"names":[],"mappings":";;;;;AAAA,yDAAiC;AAEjC;;GAEG;AACH,MAAqB,QAAQ;;AAA7B,2BAOC;AANwB,mCAA0B,GAAG,CAAC,CAAC;AAC/B,mCAA0B,GAAG,CAAC,CAAC;AAC/B,+BAAsB,GAAG,eAAK,CAAC,WAAW,CAAC,EAAE,CAAC,CAAC;AAC/C,uCAA8B,GAAG,eAAK,CAAC,WAAW,CAAC,CAAC,CAAC,CAAC;AACtD,uCAA8B,GAAG,eAAK,CAAC,WAAW,CAAC,EAAE,CAAC,CAAC;AACvD,gCAAuB,GAAG,CAAC,CAAC"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7623226aa63cb978f24cf1c22ed5d0fcb65a45b91261f4529f924d82f0a77fba
+size 408
